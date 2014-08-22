@@ -22,9 +22,3 @@ class SetDesignPhotosTableSeeder extends Seeder {
 
 }
 
-
-/*
-	$table->string('title');
-	$table->string('slug');
-	$table->string('path');
-*/

@@ -17,7 +17,7 @@ class UpdateSculpturePhotosTable extends Migration {
 			$table->integer('sculpture_id')->unsigned()->nullable();
 			$table->foreign('sculpture_id')
 				->references('id')
-				->on('women')
+				->on('sculpture')
 				->on_delete('restrict')
 				->on_update('cascade');
 		});

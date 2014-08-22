@@ -1,6 +1,6 @@
 <?php
 
-class SetDesign extends ModelsModel {
+class SetDesign extends SetDesignModel {
 
 	protected $table = 'setdesign';
 

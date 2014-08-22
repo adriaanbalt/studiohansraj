@@ -92,7 +92,7 @@ class PivotSculpturePhotosBoardTableSeeder extends Seeder {
 /*
 	$table->foreign('sculpture_id')
 		->references('id')
-		->on('women')
+		->on('sculpture')
 		->on_delete('restrict')
 		->on_update('cascade');
 	

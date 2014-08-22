@@ -37,7 +37,6 @@
 				@include('partials.logo')
 				@include('partials.navigation', array('status'=>'closed'))
 				@yield('content')
-				@include('partials.definition')
 				@include('partials.footer')
 			</div>
 		</div>

@@ -9,20 +9,16 @@ class NavigationTableSeeder extends Seeder {
 
 		$array = array(
 			array(
-					'title' => 'women',
-					'slug'  => 'women'
-			),
-			array(
-					'title' => 'rookies',
+					'title' => 'Set Design',
 					'slug'  => 'rookies'
 			),
 			array(
-					'title' => 'backstage',
-					'slug'  => 'backstage'
+					'title' => 'About',
+					'slug'  => 'About'
 			),
 			array(
-					'title' => 'join',
-					'slug'  => 'join'
+					'title' => 'Sculpture',
+					'slug'  => 'Sculpture'
 			)
 		);
 

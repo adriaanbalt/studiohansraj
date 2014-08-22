@@ -1,5 +1,4 @@
 <footer>
-	<img class='logo' src="{{ URL::asset( 'images/logo-black.svg' ) }}"/>
 	<p class='address'>{{ $data->address }}</p>
 	<p class='telephone'>
 		<a href='tel:{{ $data->telephone }}'>{{ $data->telephone }}</a>

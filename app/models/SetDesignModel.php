@@ -1,6 +1,6 @@
 <?php
 
-class ModelsModel extends Model {
+class SetDesignModel extends Model {
 
 	public function slug()
 	{
@@ -12,29 +12,14 @@ class ModelsModel extends Model {
 		return $this->name;
 	}
 
-	public function height()
+	public function photographer()
 	{
-		return $this->height;
+		return $this->photographer;
 	}
 
-	public function bust()
+	public function stylist()
 	{
-		return $this->bust;
-	}
-
-	public function waist()
-	{
-		return $this->waist;
-	}
-
-	public function hips()
-	{
-		return $this->hips;
-	}
-
-	public function shoes()
-	{
-		return $this->shoes;
+		return $this->stylist;
 	}
 
 	public function hair()
@@ -42,9 +27,14 @@ class ModelsModel extends Model {
 		return $this->hair;
 	}
 
-	public function eyes()
+	public function makeup()
 	{
-		return $this->eyes;
+		return $this->makeup;
+	}
+
+	public function talent()
+	{
+		return $this->talent;
 	}
 
 }

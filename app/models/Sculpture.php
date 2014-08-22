@@ -1,6 +1,6 @@
 <?php
 
-class Sculpture extends ModelsModel {
+class Sculpture extends SetDesignModel {
 
 	protected $table = 'sculpture';
 

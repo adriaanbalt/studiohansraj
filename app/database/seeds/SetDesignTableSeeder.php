@@ -26,16 +26,3 @@ class SetDesignTableSeeder extends Seeder {
 	}
 
 }
-
-
-/*
-    $table->string('slug');
-    $table->string('name');
-    $table->string('height');
-    $table->string('bust');
-    $table->string('waist');
-    $table->string('hips');
-    $table->string('shoes');
-    $table->string('hair');
-    $table->string('eyes');
-*/

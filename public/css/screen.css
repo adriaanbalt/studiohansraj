@@ -309,17 +309,11 @@ section {
 
 /* line 1, ../../sass/_main.scss */
 #content {
-  background-size: contain;
-  background-position: top left;
-  background-color: #FFF;
+  background-color: #f3eefc;
   min-height: 100%;
   position: absolute;
   width: 100%;
   text-align: center;
-}
-/* line 11, ../../sass/_main.scss */
-#content.mauve {
-  background-image: url(../images/records/sleeve.jpg);
 }
 
 /* line 2, ../../sass/_navigation.scss */

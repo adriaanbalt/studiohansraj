@@ -1,0 +1,23 @@
+#details {
+	.stats {
+		margin: 1em 0 2em 0;
+		p {
+			display: inline-block;
+		}
+	}
+	ul {
+		padding: 0 1%;
+		li {
+			.empty {
+				width: 49%;
+				float: left;
+				height: 1px;
+			}
+			img {
+				float: left;
+				width: 49%;
+				vertical-align: top;
+			}
+		}
+	}
+}

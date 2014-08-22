@@ -44,8 +44,6 @@ window.STUDIOHANSRAJ = (function(self, window, undefined){
 		}, STUDIOHANSRAJ.$body );
 
 		STUDIOHANSRAJ.Nav.initialize();
-		if ( document.getElementById("intro") ) STUDIOHANSRAJ.Intro.initialize();
-		STUDIOHANSRAJ.Models.initialize();
 
 		// prevent bootstrap from executing twice
 		self.initialized = true;

@@ -10,5 +10,4 @@
 		<a href='mailto:{{ $data->email }}'>{{ $data->email }}</a>
 	</p>
 	<p>2014</p>
-	<p class='balt'>website by <a href='http://balt.us' target='_blank'>BALT<!--<img src="{{ URL::asset( 'images/BALT.svg' ) }}"/>--></a></p>
 </footer>

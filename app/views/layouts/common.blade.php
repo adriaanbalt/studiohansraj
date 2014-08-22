@@ -66,7 +66,7 @@
 
 		<script src="{{ url('js/studiohansraj.js') }}" type="text/javascript"></script>
 		<script src="{{ url('js/studiohansraj.intro.js') }}" type="text/javascript"></script>
-		<script src="{{ url('js/studiohansraj.gallery.js') }}" type="text/javascript"></script>
+		<script src="{{ url('js/studiohansraj.details.js') }}" type="text/javascript"></script>
 		<script src="{{ url('js/studiohansraj.nav.js') }}" type="text/javascript"></script>
 
 	</body>

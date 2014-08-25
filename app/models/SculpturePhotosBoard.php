@@ -4,7 +4,7 @@ class SculpturePhotosBoard extends Model {
 
 	protected $table = 'sculpture_photos_board';
 
-	public function model()
+	public function story()
 	{
 		return $this->hasOne('Sculpture', 'id', 'sculpture_id');
 	}

@@ -4,7 +4,7 @@ class SetDesignPhotosBoard extends Model {
 
 	protected $table = 'setdesign_photos_board';
 
-	public function model()
+	public function story()
 	{
 		return $this->hasOne('SetDesign', 'id', 'setdesign_id');
 	}

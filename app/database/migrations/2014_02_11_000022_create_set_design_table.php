@@ -21,13 +21,27 @@ class CreateSetDesignTable extends Migration {
 
 			$table->string('name');
 
-			$table->string('height')->nullable();
-			$table->string('bust')->nullable();
-			$table->string('waist')->nullable();
-			$table->string('hips')->nullable();
-			$table->string('shoes')->nullable();
+			$table->string('client')->nullable();
+			$table->string('client_url')->nullable();
+
+			$table->string('director')->nullable();
+			$table->string('director_url')->nullable();
+
+			$table->string('photographer')->nullable();
+			$table->string('photographer_url')->nullable();
+
+			$table->string('stylist')->nullable();
+			$table->string('stylist_url')->nullable();
+			
+			$table->string('talent')->nullable();
+			$table->string('talent_agency')->nullable();
+			$table->string('talent_url')->nullable();
+			
+			$table->string('makeup')->nullable();
+			$table->string('makeup_url')->nullable();
+			
 			$table->string('hair')->nullable();
-			$table->string('eyes')->nullable();
+			$table->string('hair_url')->nullable();
 
 			$table->integer('photocover_id')->unsigned()->nullable();
 			$table->foreign('photocover_id')
@@ -35,7 +49,7 @@ class CreateSetDesignTable extends Migration {
 				->on('setdesign_photos')
 				->on_delete('restrict')
 				->on_update('cascade');
-			
+
 			$table->timestamps();
 		});
 	}

@@ -11,11 +11,6 @@ class SculptureTableSeeder extends Seeder {
 			array(
 					'slug' => 'one',
 					'name' => 'Sculpture One',
-					'photographer' => '',
-					'stylist' => '',
-					'talent' => '',
-					'makeup' => '',
-					'hair' => '',
 					'photocover_id' => null
 			)
 		);

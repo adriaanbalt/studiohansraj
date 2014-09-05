@@ -10,15 +10,15 @@ class NavigationTableSeeder extends Seeder {
 		$array = array(
 			array(
 					'title' => 'Set Design',
-					'slug'  => 'rookies'
+					'slug'  => 'setdesign'
 			),
 			array(
-					'title' => 'About',
-					'slug'  => 'About'
+					'title' => 'Contact',
+					'slug'  => 'contact'
 			),
 			array(
 					'title' => 'Sculpture',
-					'slug'  => 'Sculpture'
+					'slug'  => 'sculpture'
 			)
 		);
 

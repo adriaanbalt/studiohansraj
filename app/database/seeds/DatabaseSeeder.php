@@ -37,8 +37,8 @@ class DatabaseSeeder extends Seeder {
 		// $this->call('UpdatedSculptureTableSeeder');
 		// $this->command->info('Updated Sculpture!');
 
-		$this->call('UpdatedSetDesignTableSeeder');
-		$this->command->info('Updated SetDesign!');
+		// $this->call('UpdatedSetDesignTableSeeder');
+		// $this->command->info('Updated SetDesign!');
 		
 		// $this->call('PivotSculpturePhotosBoardTableSeeder');
 		// $this->command->info('Pivot Sculpture Photos Board finished!');

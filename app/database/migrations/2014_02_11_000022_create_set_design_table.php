@@ -43,13 +43,8 @@ class CreateSetDesignTable extends Migration {
 			$table->string('hair')->nullable();
 			$table->string('hair_url')->nullable();
 
-			$table->integer('photocover_id')->unsigned()->nullable();
-			$table->foreign('photocover_id')
-				->references('id')
-				->on('setdesign_photos')
-				->on_delete('restrict')
-				->on_update('cascade');
-
+			$table->string('cover_photo')->nullable();
+			
 			$table->timestamps();
 		});
 	}

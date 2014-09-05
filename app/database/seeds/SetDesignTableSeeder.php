@@ -16,7 +16,7 @@ class SetDesignTableSeeder extends Seeder {
 					'director' => '',
 					'director_url' => '',
 					'photographer' => 'Jai Odell',
-					'photographer_url' => '',
+					'photographer_url' => 'http://www.jaiodell.com',
 					'stylist' => 'Michelle Cameron',
 					'stylist_url' => 'http://www.frankreps.com/stylists/michelle-cameron/print#/stylists/michelle-cameron/print/50351f45-4ea8-4f58-bf1e-70810a0b0910',
 					'talent' => 'Bill Hader',
@@ -26,7 +26,7 @@ class SetDesignTableSeeder extends Seeder {
 					'makeup_url' => 'http://www.susiesobol.com/',
 					'hair' => 'Joey George',
 					'hair_url' => 'http://joeygeorge.4ormat.com/',
-					'photocover_id' => null
+					'cover_photo' => 'images/01interview_magazine_Bill_Hader/interview-bilhader-01.jpg'
 			)
 			,
 			array(
@@ -37,7 +37,7 @@ class SetDesignTableSeeder extends Seeder {
 					'director' => '',
 					'director_url' => '',
 					'photographer' => 'Jai Odell',
-					'photographer_url' => 'http://jaiodell.com/',
+					'photographer_url' => 'http://www.jaiodell.com',
 					'stylist' => 'Aleksandra Woroneicka',
 					'stylist_url' => 'http://www.managementartists.com/stylists/aleksandra-woroniecka',
 					'talent' => 'Luca Gadjus',
@@ -47,7 +47,7 @@ class SetDesignTableSeeder extends Seeder {
 					'makeup_url' => 'http://www.artlistparis.com/make-up/morgane-martini',
 					'hair' => 'Shin Arima',
 					'hair_url' => 'http://www.frankreps.com/hair/shin-arima/print#/hair/shin-arima/print/51892bff-84f0-4f3e-8267-472a0aa613db',
-					'photocover_id' => null
+					'cover_photo' => 'images/02Club_Monaco_September/clubmonacoseptember-01.jpg'
 			),
 			array(
 					'slug' => 'Vogue-Australia',
@@ -57,7 +57,7 @@ class SetDesignTableSeeder extends Seeder {
 					'director' => '',
 					'director_url' => '',
 					'photographer' => 'Jai Odell',
-					'photographer_url' => 'http://jaiodell.com/',
+					'photographer_url' => 'http://www.jaiodell.com',
 					'stylist' => 'Jessica dos Remedios',
 					'stylist_url' => 'http://jessicadosremedios.com/',
 					'talent' => 'Elisaveta + Vera',
@@ -67,7 +67,7 @@ class SetDesignTableSeeder extends Seeder {
 					'makeup_url' => 'http://www.susiesobol.com/',
 					'hair' => '',
 					'hair_url' => '',
-					'photocover_id' => null
+					'cover_photo' => 'images/03Vogue_Australia/vogueaustralia-01.jpg'
 			),
 			array(
 					'slug' => 'Kim-Haller',
@@ -87,7 +87,7 @@ class SetDesignTableSeeder extends Seeder {
 					'makeup_url' => 'http://www.dripbook.com/yinnawang/',
 					'hair' => 'Tony Kelley',
 					'hair_url' => 'http://www.tonykelleyhair.com/',
-					'photocover_id' => null
+					'cover_photo' => 'images/04Kim_Haller/kimhaller-01.jpg'
 			),
 			array(
 					'slug' => 'i-D-Magazine-Editorial',
@@ -107,7 +107,7 @@ class SetDesignTableSeeder extends Seeder {
 			 		'makeup_url' => 'http://models.com/people/kanako-takase',
 			 		'hair' => 'Ryan Mitchell',
 			 		'hair_url' => '',
-			 		'photocover_id' => null
+			 		'cover_photo' => 'images/05i-D_Magazine_Editorial/id-01.jpg'
 			 ),
 			 array(
 			 		'slug' => 'Jake-Jones-Test',
@@ -127,7 +127,7 @@ class SetDesignTableSeeder extends Seeder {
 			 		'makeup_url' => 'http://akikoowada.com/',
 			 		'hair' => 'Neil Grupp',
 			 		'hair_url' => 'http://neilgrupp.com/',
-			 		'photocover_id' => null
+			 		'cover_photo' => 'images/06Jake_Jones_Test/jakejones-01.jpg'
 			 ),
 			 array(
 			 		'slug' => 'i-D-Magazine-Andre-Walker',
@@ -147,7 +147,7 @@ class SetDesignTableSeeder extends Seeder {
 			 		'makeup_url' => 'http://www.streeters.com/artists/makeup-artists/marla-belt/portfolio',
 			 		'hair' => 'Kayla MiChele',
 			 		'hair_url' => 'http://kaylamichele.com/',
-			 		'photocover_id' => null
+			 		'cover_photo' => 'images/07i-D_Magazine_Andre_Walker/id-01.jpg'
 			 ),
 			 array(
 			 		'slug' => 'The-Last-Magazine-Noir',
@@ -157,7 +157,7 @@ class SetDesignTableSeeder extends Seeder {
 					'director' => '',
 					'director_url' => '',
 			 		'photographer' => 'Jai Odell',
-			 		'photographer_url' => 'http://jaiodell.com/',
+			 		'photographer_url' => 'http://www.jaiodell.com',
 			 		'stylist' => 'Zara Zachrisson',
 			 		'stylist_url' => 'http://cargocollective.com/zarazachrisson',
 			 		'talent' => 'Naty Chabanenko',
@@ -167,7 +167,7 @@ class SetDesignTableSeeder extends Seeder {
 			 		'makeup_url' => 'http://www.susiesobol.com/',
 			 		'hair' => 'Kayla MiChele',
 			 		'hair_url' => 'http://kaylamichele.com/',
-			 		'photocover_id' => null
+			 		'cover_photo' => 'images/08The_Last_Magazine_Noir/lastmagazinenoir-01.jpg'
 			 ),
 			 array(
 			 		'slug' => 'Society',
@@ -177,7 +177,7 @@ class SetDesignTableSeeder extends Seeder {
 					'director' => '',
 					'director_url' => '',
 			 		'photographer' => 'Jai Odell',
-			 		'photographer_url' => 'http://jaiodell.com/',
+			 		'photographer_url' => 'http://www.jaiodell.com',
 			 		'stylist' => 'Sasha Kelly',
 			 		'stylist_url' => 'http://www.sasha-kelly.com/',
 			 		'talent' => 'Pamela Bernier',
@@ -187,7 +187,7 @@ class SetDesignTableSeeder extends Seeder {
 			 		'makeup_url' => 'http://www.georgisandev.com/index2.php#/home/',
 			 		'hair' => 'Shingo Shibata',
 			 		'hair_url' => 'http://models.com/people/shingo-shibata',
-			 		'photocover_id' => null
+			 		'cover_photo' => 'images/09Society/society-01.jpg'
 			 ),
 			 array(
 			 		'slug' => 'Marfa-Journal',
@@ -197,7 +197,7 @@ class SetDesignTableSeeder extends Seeder {
 					'director' => '',
 					'director_url' => '',
 			 		'photographer' => 'Jai Odell',
-			 		'photographer_url' => 'http://jaiodell.com/',
+			 		'photographer_url' => 'http://www.jaiodell.com',
 			 		'stylist' => 'Britt Berger',
 			 		'stylist_url' => 'http://www.brittberger.com/',
 			 		'talent' => 'Kelly Mittendorf',
@@ -207,7 +207,7 @@ class SetDesignTableSeeder extends Seeder {
 			 		'makeup_url' => 'http://www.georgisandev.com/index2.php#/home/',
 			 		'hair' => 'Kayla Michele',
 			 		'hair_url' => 'http://kaylamichele.com/',
-			 		'photocover_id' => null
+			 		'cover_photo' => 'images/10Marfa_Journal/marfa-01.jpg'
 			 ),
 			 array(
 			 		'slug' => 'Seedless',
@@ -227,7 +227,7 @@ class SetDesignTableSeeder extends Seeder {
 			 		'makeup_url' => '',
 			 		'hair' => '',
 			 		'hair_url' => '',
-			 		'photocover_id' => null
+			 		'cover_photo' => 'images/11Seedless/seedless-01.jpg'
 			 ),
 			 array(
 			 		'slug' => 'Jonathan-Cohen-SS-2014',
@@ -247,7 +247,7 @@ class SetDesignTableSeeder extends Seeder {
 			 		'makeup_url' => '',
 			 		'hair' => 'Stephanie',
 			 		'hair_url' => 'http://www.shuuemura-usa.com/',
-			 		'photocover_id' => null
+			 		'cover_photo' => 'images/12Jonathan_Cohen_SS_2014/jonathancohen-01.jpg'
 			 ),
 			 array(
 			 		'slug' => 'Mens-World',
@@ -267,7 +267,7 @@ class SetDesignTableSeeder extends Seeder {
 			 		'makeup_url' => '',
 			 		'hair' => 'Shane Thomas',
 			 		'hair_url' => 'http://www.shanethomashair.com/',
-			 		'photocover_id' => null
+			 		'cover_photo' => 'images/13Mens_World_Web/Mens-World-01.jpg'
 			 ),
 			 array(
 			 		'slug' => 'Wolf-Magazine',
@@ -287,7 +287,7 @@ class SetDesignTableSeeder extends Seeder {
 			 		'makeup_url' => 'http://art-dept.com/makeup/tracy-alfajora/editorial-i',
 			 		'hair' => 'Shane Thomas',
 			 		'hair_url' => 'http://www.shanethomas.com/',
-			 		'photocover_id' => null
+			 		'cover_photo' => 'images/14Wolf_Magazine/wolfmagazine-01.jpg'
 			 ),
 			 array(
 			 		'slug' => 'Urban-Zen-Finals',
@@ -307,7 +307,7 @@ class SetDesignTableSeeder extends Seeder {
 			 		'makeup_url' => 'http://art-dept.com/makeup/tracy-alfajora/editorial-i',
 			 		'hair' => 'Martin Christopher Harper',
 			 		'hair_url' => 'http://martin-christopherharper.com/',
-			 		'photocover_id' => null
+			 		'cover_photo' => 'images/15Urban_Zen_Finals/urbanzen-01.jpg'
 			 )
 		);
 

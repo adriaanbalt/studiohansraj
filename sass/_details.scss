@@ -1,22 +1,19 @@
 #details {
-	.stats {
+	h2 {
+		margin-bottom: 1em;
+	}
+	.information {
 		margin: 1em 0 2em 0;
 		p {
 			display: inline-block;
 		}
 	}
-	ul {
-		padding: 0 1%;
+	.images {
 		li {
-			.empty {
-				width: 49%;
-				float: left;
-				height: 1px;
-			}
+			margin: 0 0 0 10px;
+			float: left;
 			img {
-				float: left;
-				width: 49%;
-				vertical-align: top;
+
 			}
 		}
 	}

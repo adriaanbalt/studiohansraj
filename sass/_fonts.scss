@@ -1,59 +1,47 @@
-// @font-face {
-//   font-family: 'Marcellus';
-//   font-style: normal;
-//   font-weight: 400;
-//   src: local('Marcellus'), local('Marcellus-Regular'), url(http://themes.googleusercontent.com/static/fonts/marcellus/v1/FJNab1jzp1t7ctjNl8ugHLO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
-// }
+/**
+ * @license
+ * MyFonts Webfont Build ID 2878278, 2014-09-05T16:47:17-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed fonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Contax Sans 56 Italic by Type Innovations
+ * URL: http://www.myfonts.com/fonts/typeinnovations/contax-sans/56-italic/
+ * 
+ * Webfont: Contax Sans 55 by Type Innovations
+ * URL: http://www.myfonts.com/fonts/typeinnovations/contax-sans/55-regular/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2878278
+ * Licensed pageviews: 10,000
+ * fonts copyright: Copyright (c) Alex Kaczun, dba Type Innovations, 2011. All rights reserved.
+ * 
+ * © 2014 MyFonts Inc
+*/
 
-// @font-face {
-// 	font-family: 'ProximaLight';
-// 	src: url('fonts/Proxima Nova Cond Light.eot#') format('eot'),
-// 		 url('fonts/Proxima Nova Cond Light.woff') format('woff'),
-// 		 url('fonts/Proxima Nova Cond Light.ttf') format('truetype'),
-// 		 url('fonts/Proxima Nova Cond Light.svg#webfontFHzvtkso') format('svg');
-// 	font-weight: normal;
-// 	font-style: normal;
-// }
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2beb46");
 
-// @font-face {
-// 	font-family: 'ProximaRegular';
-// 	src: url('fonts/Proxima Nova Cond Reg.eot#') format('eot'),
-// 		 url('fonts/Proxima Nova Cond Reg.woff') format('woff'),
-// 		 url('fonts/Proxima Nova Cond Reg.ttf') format('truetype'),
-// 		 url('fonts/Proxima Nova Cond Reg.svg#webfontFHzvtkso') format('svg');
-// 	font-weight: normal;
-// 	font-style: normal;
-// }
-
-// @font-face {
-// 	font-family: 'ProximaExtraBold';
-// 	src: url('fonts/Proxima Nova Cond Bold.eot#') format('eot'),
-// 		 url('fonts/Proxima Nova Cond Bold.woff') format('woff'),
-// 		 url('fonts/Proxima Nova Cond Bold.ttf') format('truetype'),
-// 		 url('fonts/Proxima Nova Cond Bold.svg#webfontFHzvtkso') format('svg');
-// 	font-weight: normal;
-// 	font-style: normal;
-// }
-
-// @font-face {
-// 	font-family: 'ProximaExtraBold';
-// 	src: url('fonts/Proxima Nova Cond Xbold.eot#') format('eot'),
-// 		 url('fonts/Proxima Nova Cond Xbold.woff') format('woff'),
-// 		 url('fonts/Proxima Nova Cond Xbold.ttf') format('truetype'),
-// 		 url('fonts/Proxima Nova Cond Xbold.svg#webfontFHzvtkso') format('svg');
-// 	font-weight: normal;
-// 	font-style: normal;
-// }
+  
+@font-face {font-family: 'ContaxSans56-Italic';src: url('fonts/2BEB46_0_0.eot');src: url('fonts/2BEB46_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/2BEB46_0_0.woff') format('woff'),url('fonts/2BEB46_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ContaxSans55';src: url('fonts/2BEB46_1_0.eot');src: url('fonts/2BEB46_1_0.eot?#iefix') format('embedded-opentype'),url('fonts/2BEB46_1_0.woff') format('woff'),url('fonts/2BEB46_1_0.ttf') format('truetype');}
+ 
 
 body {
 	color: $p-color;
+	font-family: ContaxSans55;
+	font-weight: normal;
 	-webkit-font-smoothing: antialiased;
 }
 
 h1 {
-	font-family: "trajan-pro-3", "Garamond", "Georgia", serif;
+	font-family: ContaxSans55;
 	font-weight: normal;
-	font-weight: 400;
 	font-size: 96px;
 	text-align: center;
 	color: $h1-color;
@@ -61,8 +49,8 @@ h1 {
 }
 
 h2 {
-	font-family: "Garamond", "Georgia", serif;
-	font-weight: 400;
+	font-family: ContaxSans55;
+	font-weight: normal;
 	font-size: 40px;
 	letter-spacing: 2px;
 	line-height: 38px;
@@ -71,6 +59,8 @@ h2 {
 }
 
 h3 {
+	font-family: ContaxSans55;
+	font-weight: normal;
 	font-weight: normal;
 	text-align: center;
 	color: $h3-color;
@@ -153,13 +143,14 @@ p {
 }
 
 i {
-	font-family:"ProximaRegular";
+	font-family: ContaxSans56-italic;
+	font-weight: normal;
 	font-weight: normal;
 	font-style: italic;
 }
 
 b, strong {
-	font-family: 'ProximaExtraBold';
+	font-family: ContaxSans55;
 	font-weight: normal;
 	color: #1f1f1f;
 }

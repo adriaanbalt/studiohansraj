@@ -1,15 +1,31 @@
 #navigation {
 	nav {
 		width: 100%;
-		margin: 3em auto 3em 0;
+		margin: 1em auto 2em 0;
 		a {
 			letter-spacing: 0.041em;
 			text-align: center;
 			letter-spacing: 3px;
 			font-size: 2.5em;
-			padding: .5em;
+			padding: .5em 2em;
+			display: inline-block;
+			position: relative;
+			img {
+				width: 200px;
+
+			}
 			&:hover {
 				// background: $nav-hover-bg-color;
+			}
+			.over {
+				display: none;
+				position: absolute;
+				top: 20px;
+			}
+			&:hover {
+				.over {
+					display: block;
+				}
 			}
 		}
 	}

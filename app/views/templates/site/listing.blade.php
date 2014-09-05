@@ -4,10 +4,9 @@
 @foreach( $data as $item )
 		<li>
 			<a href="{{ Request::segment(1) }}/{{ $item->story->slug }}">
-				<img src="{{ URL::asset( $item->cover->path ) }}"/>
+				<img src="{{ URL::asset( $item->story->cover_photo ) }}"/>
 				<div>
-					<div class='valign'></div>
-					<p class='vcontent'>{{ $item->story->name }}</p>
+					<p>{{ $item->story->name }}</p>
 				</div>
 			</a>
 		</li>

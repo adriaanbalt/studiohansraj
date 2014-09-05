@@ -17,15 +17,11 @@ STUDIOHANSRAJ.Details = (function(STUDIOHANSRAJ, window, undefined){
 	
 	var config = {
 		initialized: false
-	}, uid = 0, slides = [], currentSlide, currentIndex = 0,
+	}, widthAccumulator = 0,
 
-
-	_Slide = function( $target ) {
-		this.$target = $target;
-		this.$target.data('this', this);
-
-		$target.find('.previousBtn').on( 'click', _previous );
-		$target.find('.nextBtn').on( 'click', _next );
+	_imageOnloadHandler = function ( target ) {
+		widthAccumulator += target.width() + 10;
+		$('#details ul').width( widthAccumulator + 10 );
 	},
 
 	/**
@@ -36,67 +32,31 @@ STUDIOHANSRAJ.Details = (function(STUDIOHANSRAJ, window, undefined){
 	 */
 	_initialize = function() {
 		console.log ( 'STUDIOHANSRAJ.Details.initialize ' );
-		$('#details ul li').each( function() {
-			slides[uid++] = new _Slide( $(this) );
+		var scope = this;
+
+		$('#details ul li img').each( function() {
+			if ( !$(this).hasClass( 'loaded' ) ) {
+				// load via data-src attribute
+				// $(this).attr('src', $(this).data('src') );
+				$(this).addClass('loaded');
+				// load handlers
+				if ( $(this)[0].complete ) {
+					_imageOnloadHandler( $(this) );
+				} else {
+					$(this).load( function() {
+						scope.imageOnloadHandler( $(this) );
+					});
+				}
+			}
 		});
-		currentSlide = slides[0];
-		console.log ( 'slide: ', slides );
-	},
 
-	/**
-	 * go to next
-	 */
-	_next = function() {
-		currentIndex++;
-		if ( currentIndex > slides.length-1 ){
-			currentIndex = slides.length-1;
-		}
-		showSlide();
-	},
-
-	/**
-	 * go to previous
-	 */
-	_previous = function() {
-		currentIndex--;
-		if ( currentIndex < 0 ){
-			currentIndex = 0;
-		}
-		showSlide();
-	},
-
-	/**
-	 * go to index
-	 */
-	_gotoSlide = function( index ) {
-		currentIndex = index;
-		showSlide();
-	},
-
-	/**
-	 * show next slide, hide current slide
-	 */
-	showSlide = function() {
-		currentSlide.hide();
-		currentSlide = slides[currentIndex];
-		currentSlide.show();
+		$('#details ul').width( widthAccumulator + 10 );
 	};
 
-	_Slide.prototype = {
-
-		show : function() {
-			this.$target.removeClass('hidden');
-		},
-
-		hide : function() {
-			this.$target.addClass('hidden');
-		}
-			
-	};
-	
 	// public methods for this class
 	return {
-		initialize: _initialize
+		initialize: _initialize,
+		imageOnloadHandler: _imageOnloadHandler
 	};
 
 }(STUDIOHANSRAJ, window, undefined));

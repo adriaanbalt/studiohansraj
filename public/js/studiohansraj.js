@@ -44,6 +44,9 @@ window.STUDIOHANSRAJ = (function(self, window, undefined){
 		}, STUDIOHANSRAJ.$body );
 
 		STUDIOHANSRAJ.Nav.initialize();
+		STUDIOHANSRAJ.Details.initialize();
+
+		// $('#content').css('display','block');
 
 		// prevent bootstrap from executing twice
 		self.initialized = true;

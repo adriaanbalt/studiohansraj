@@ -10,3 +10,4 @@ Route::get('/sculpture/{id}', 'SculptureController@details');
 Route::get('/setdesign', 'SetDesignController@index');
 Route::get('/setdesign/{id}', 'SetDesignController@details');
 Route::get('/about', 'AboutController@index');
+Route::get('/contact', 'AboutController@index');

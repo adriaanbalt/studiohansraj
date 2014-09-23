@@ -34,8 +34,12 @@
 		<div id="main" role="main" class=''>
 			@include('partials.navigation-mobile', array('status'=>'closed'))
 			<div id='content'>
-				@include('partials.logo')
-				@include('partials.navigation', array('status'=>'closed'))
+				<div class='headline'>
+					<div class='headline-container'>
+						@include('partials.logo')
+						@include('partials.navigation', array('status'=>'closed'))
+					</div>
+				</div>
 				@yield('content')
 				@include('partials.footer')
 			</div>

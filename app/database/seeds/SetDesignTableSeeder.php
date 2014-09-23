@@ -9,8 +9,108 @@ class SetDesignTableSeeder extends Seeder {
 
 		$array = array(
 			array(
-					'slug' => 'Interview-Magazine-Bill-Hader',
-					'name' => 'Interview Magazine Bill Hader',
+					'slug' => 'The-Last-Magazine-2',
+					'name' => 'The Last Magazine',
+					'client' => 'The Last Magazine',
+			 		'client_url' => 'http://thelast-magazine.com/',
+					'director' => '',
+					'director_url' => '',
+					'photographer' => '',
+					'photographer_url' => '',
+					'stylist' => '',
+					'stylist_url' => '',
+					'talent' => '',
+					'talent_agency' => '',
+					'talent_url' => '',
+					'makeup' => '',
+					'makeup_url' => '',
+					'hair' => '',
+					'hair_url' => '',
+					'cover_photo' => ''
+			),
+			array(
+					'slug' => 'Jake-Jones-FW',
+					'name' => 'Jake Jones Fall Winter',
+					'client' => 'Jake Jones',
+					'client_url' => 'http://www.whoisjakejones.com/',
+					'director' => '',
+					'director_url' => '',
+					'photographer' => 'Jake Jones',
+					'photographer_url' => 'http://www.whoisjakejones.com/',
+					'stylist' => 'Rika Watanabe',
+					'stylist_url' => 'http://www.rikamwatanabe.com',
+					'talent' => 'Eilika',
+					'talent_agency' => 'Women Model Management',
+					'talent_url' => 'www.womenmanagement.com',
+					'makeup' => 'Akiko Owada',
+					'makeup_url' => 'http://akikoowada.com/',
+					'hair' => 'Kiyo Igarashi',
+					'hair_url' => 'http://www.kiyoigarashi.com',
+					'cover_photo' => 'images/19Jake_Jones_FW/jakejones-fw-01.jpg'
+			),
+			array(
+					'slug' => 'Out-Magazine',
+					'name' => 'Out Magazine',
+					'client' => 'Out Magazine',
+					'client_url' => 'http://www.outmagazine.com/',
+					'director' => '',
+					'director_url' => '',
+					'photographer' => 'BJARNE JONASSON',
+					'photographer_url' => 'http://www.ateliermanagement.com/photographers/bjarne-jonasson/fashion-1',
+					'stylist' => 'Mitchell Belk',
+					'stylist_url' => 'http://www.mitchellbelk.com',
+					'talent' => 'Eilika',
+					'talent_agency' => 'Women Model Management',
+					'talent_url' => 'http://www.womenmanagement.com',
+					'makeup' => 'Akiko Owada',
+					'makeup_url' => 'http://akikoowada.com/',
+					'hair' => 'Riad Azar',
+					'hair_url' => 'http://www.riadazar.com',
+					'cover_photo' => 'images/18Out_Mag/outmagazine-01.jpg'
+			),
+			array(
+					'slug' => 'AF-Personal',
+					'name' => 'AF Personal',
+					'client' => 'AF Personal',
+					'client_url' => '',
+					'director' => '',
+					'director_url' => '',
+					'photographer' => '',
+					'photographer_url' => '',
+					'stylist' => '',
+					'stylist_url' => '',
+					'talent' => '',
+					'talent_agency' => '',
+					'talent_url' => '',
+					'makeup' => '',
+					'makeup_url' => '',
+					'hair' => '',
+					'hair_url' => '',
+					'cover_photo' => 'images/17AF_PERSONAL_FINALS/afpersonal-01.jpg'
+			),
+			array(
+					'slug' => '16Burdzinski_jimon',
+					'name' => 'Burdzinski Jimon',
+					'client' => 'Burdzinski Jimon',
+					'client_url' => '',
+					'director' => '',
+					'director_url' => '',
+					'photographer' => '',
+					'photographer_url' => '',
+					'stylist' => '',
+					'stylist_url' => '',
+					'talent' => '',
+					'talent_agency' => '',
+					'talent_url' => '',
+					'makeup' => '',
+					'makeup_url' => '',
+					'hair' => '',
+					'hair_url' => '',
+					'cover_photo' => 'images/16Burdzinski_jimon/burdzinskijimon-01.jpg'
+			),
+			array(
+					'slug' => 'Interview-Magazine',
+					'name' => 'Interview Magazine',
 					'client' => 'Interview Magazine',
 					'client_url' => 'http://www.interviewmagazine.com/',
 					'director' => '',
@@ -30,8 +130,8 @@ class SetDesignTableSeeder extends Seeder {
 			)
 			,
 			array(
-					'slug' => 'Club-Monaco-September',
-					'name' => 'Club Monaco September',
+					'slug' => 'Club-Monaco',
+					'name' => 'Club Monaco',
 					'client' => 'Club Monaco',
 					'client_url' => 'http://www.clubmonaco.com/',
 					'director' => '',
@@ -76,7 +176,7 @@ class SetDesignTableSeeder extends Seeder {
 					'client_url' => 'http://www.kim-haller.com',
 					'director' => '',
 					'director_url' => '',
-					'photographer' => 'Paolo Ambrosi de Magistris + Murray Hall',
+					'photographer' => 'Paola Ambrosi de Magistris + Murray Hall',
 					'photographer_url' => 'http://www.pamu.com/',
 					'stylist' => 'Angelica Nelson',
 					'stylist_url' => 'http://www.inartistmanagement.com/STYLIST/ANGELICA--Nelson/1/',
@@ -90,8 +190,8 @@ class SetDesignTableSeeder extends Seeder {
 					'cover_photo' => 'images/04Kim_Haller/kimhaller-01.jpg'
 			),
 			array(
-					'slug' => 'i-D-Magazine-Editorial',
-					'name' => 'i-D Magazine Editorial',
+					'slug' => 'i-D-Magazine',
+					'name' => 'i-D Magazine',
 					'client' => 'i-D Magazine',
 					'client_url' => 'http://i-d.vice.com/en_gb/',
 					'director' => '',
@@ -110,8 +210,8 @@ class SetDesignTableSeeder extends Seeder {
 			 		'cover_photo' => 'images/05i-D_Magazine_Editorial/id-01.jpg'
 			 ),
 			 array(
-			 		'slug' => 'Jake-Jones-Test',
-			 		'name' => 'Jake Jones Test',
+			 		'slug' => 'Jake-Jones',
+			 		'name' => 'Jake Jones',
 			 		'client' => '',
 			 		'client_url' => '',
 					'director' => '',
@@ -130,8 +230,8 @@ class SetDesignTableSeeder extends Seeder {
 			 		'cover_photo' => 'images/06Jake_Jones_Test/jakejones-01.jpg'
 			 ),
 			 array(
-			 		'slug' => 'i-D-Magazine-Andre-Walker',
-			 		'name' => 'i-D Magazine Andre Walker',
+			 		'slug' => 'i-D-Magazine',
+			 		'name' => 'i-D Magazine',
 			 		'client' => 'i-D Magazine',
 			 		'client_url' => 'http://i-d.vice.com/en_gb/',
 					'director' => '',
@@ -150,8 +250,8 @@ class SetDesignTableSeeder extends Seeder {
 			 		'cover_photo' => 'images/07i-D_Magazine_Andre_Walker/id-01.jpg'
 			 ),
 			 array(
-			 		'slug' => 'The-Last-Magazine-Noir',
-			 		'name' => 'The Last Magazine Noir',
+			 		'slug' => 'The-Last-Magazine',
+			 		'name' => 'The Last Magazine',
 			 		'client' => 'The Last Magazine',
 			 		'client_url' => 'http://thelast-magazine.com/',
 					'director' => '',
@@ -290,8 +390,8 @@ class SetDesignTableSeeder extends Seeder {
 			 		'cover_photo' => 'images/14Wolf_Magazine/wolfmagazine-01.jpg'
 			 ),
 			 array(
-			 		'slug' => 'Urban-Zen-Finals',
-			 		'name' => 'Urban Zen Finals',
+			 		'slug' => 'Urban-Zen',
+			 		'name' => 'Urban Zen',
 			 		'client' => 'Urban Zen',
 			 		'client_url' => 'http://www.urbanzen.com/',
 					'director' => '',
@@ -309,6 +409,7 @@ class SetDesignTableSeeder extends Seeder {
 			 		'hair_url' => 'http://martin-christopherharper.com/',
 			 		'cover_photo' => 'images/15Urban_Zen_Finals/urbanzen-01.jpg'
 			 )
+
 		);
 
 		

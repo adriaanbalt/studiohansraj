@@ -281,7 +281,7 @@ class SetDesignPhotosTableSeeder extends Seeder {
 			array(
 					'title' => '',
 					'slug' => '',
-					'path' => 'images/08The_Last_Magazine_Noir/lastmagazinenoir-01.jpg',
+					'path' => 'images/08The_Last_Magazine_Noir/lastmagazinenoir-08.jpg',
 					'setdesign_id' => '8'
 			),
 			array(
@@ -323,7 +323,7 @@ class SetDesignPhotosTableSeeder extends Seeder {
 			array(
 					'title' => '',
 					'slug' => '',
-					'path' => 'images/08The_Last_Magazine_Noir/lastmagazinenoir-08.jpg',
+					'path' => 'images/08The_Last_Magazine_Noir/lastmagazinenoir-01.jpg',
 					'setdesign_id' => '8'
 			),
 			array(

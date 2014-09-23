@@ -4,7 +4,7 @@ class SetDesignController extends BaseController {
 
 	public function index()
 	{
-		$data = SetDesignPhotosBoard::all();
+		$data = SetDesign::orderBy('id', 'DESC')->get();
 
 		$this->layout->content = View::make('templates.site.listing')->withData($data);
 	}

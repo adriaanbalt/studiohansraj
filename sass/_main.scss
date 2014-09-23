@@ -1,15 +1,27 @@
 #content{
 	background-color: #fff;
 	min-height: 100%;
-	position: absolute;
-	width: 100%;
+	position: relative;
+	// width: 100%;
 	text-align: center;
-	.headline {
+	header {
 		position: relative;
-		// hei
-		.headline-container{
-			// position: absolute;
-			// left: 50%;
-		}
+		width: 100%;
 	}
 }
+
+// .scroll {
+// 	#details {
+// 		header{
+// 			margin-top: 0;
+// 		}
+// 		ul {
+// 			padding-top: 0;
+// 		}
+// 	}
+// 	#content{
+// 		header {
+// 			position: relative;
+// 		}
+// 	}
+// }

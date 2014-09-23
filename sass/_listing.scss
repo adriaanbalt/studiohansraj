@@ -1,7 +1,7 @@
 #listing {
 	padding: 0 0 5em 0;
 	ul {
-		padding: .5em;
+		padding: .15em;
 		// padding: .5%;
 		li {
 			// display: inline-block;
@@ -15,7 +15,7 @@
 					img {
 						-webkit-filter: grayscale(100%);
 						filter: grayscale(100%);
-						@include opacity( .5 );
+						@include opacity( .8 );
 
 						// -webkit-filter:: contrast(1);
 						// filter: contrast(1);
@@ -43,13 +43,21 @@
 					display: none;
 				}
 				.vcontent{
-					color: #000;
+					color: #FFF;
 					font-weight: bold;
-					display: none;
+					@include opacity(0);
+					// display: none;
 					position: absolute;
 					z-index: 1;
 					bottom: 6px;
+					left: 0;
 					width: 100%;
+				}
+				&:hover {
+					.vcontent{
+						@include opacity(.5);
+						// display: block;
+					}
 				}
 			}
 		}

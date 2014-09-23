@@ -121,21 +121,21 @@
 
 
 @media screen and (max-width: 640px){
-	#navigation {
-		display: none;
-	}
-	#navigation-mobile {
-		display: block;
-	}
-}
-@media screen and (min-width: 641px) {
-	#navigation {
-		display: block;
-	}
-	#navigation-mobile {
-		display: none;
+	#navigation nav a {
+		font-size: 1.5em;
+		.over {
+			top: 12px;
+		}
 	}
 }
+// @media screen and (min-width: 641px) {
+// 	#navigation {
+// 		display: block;
+// 	}
+// 	#navigation-mobile {
+// 		display: none;
+// 	}
+// }
 
 
 

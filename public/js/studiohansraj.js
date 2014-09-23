@@ -12,13 +12,15 @@
  */
 window.STUDIOHANSRAJ = (function(self, window, undefined){
 	
+	var leftMax, $header, $details, $window,
+
 	/**
 	 * @name STUDIOHANSRAJ-_initialize
 	 * @exports STUDIOHANSRAJ-_initialize as STUDIOHANSRAJ
 	 * @function
 	 * @description The initialize method that kicks off all STUDIOHANSRAJ functionality
 	 */
-	var _initialize = function() {
+	_initialize = function() {
 		
 		// prevent bootstrap from executing twice
 		if (self.initialized) {
@@ -43,14 +45,90 @@ window.STUDIOHANSRAJ = (function(self, window, undefined){
 			large: 1140
 		}, STUDIOHANSRAJ.$body );
 
-		STUDIOHANSRAJ.Nav.initialize();
-		STUDIOHANSRAJ.Details.initialize();
+		$header 		= $('header');
+		$details 		= $('#details ul');
+		$info 			= $('#details .information');
+		$copyright		= $('footer .copyright');
+		$window 		= $(window);
+		windowWidth 	= $window.width();
+		$window.scroll( scolling );
 
-		// $('#content').css('display','block');
+		STUDIOHANSRAJ.Nav.initialize();
+		STUDIOHANSRAJ.Details.initialize( imagesLoaded );
 
 		// prevent bootstrap from executing twice
 		self.initialized = true;
-	
+	},
+
+	imagesLoaded = function() {
+		headerWidth 	= $header.width()
+		detailsWidth 	= $details.width();
+		infoWidth		= $info.width();
+		copyWidth		= $copyright.width();
+		leftMax 		= detailsWidth - windowWidth;
+	},
+
+	scolling = function(event) {
+		var valueHeader, valueInfo, valueCopyright, properties, num;
+
+		console.log ( $window.scrollLeft(), leftMax );
+
+		// HEADER
+		if ( 0 < $window.scrollLeft() && $window.scrollLeft() < leftMax ) {
+			// header
+			num = $window.scrollLeft() + (windowWidth/2 - headerWidth/2);
+			valueHeader = "translateX(" + num + "px)";
+			// info
+			num = $window.scrollLeft() + (windowWidth/2 - infoWidth/2);
+			valueInfo = "translateX(" + num + "px)";
+			// copyright
+			num = $window.scrollLeft() + (windowWidth/2 - copyWidth/2);
+			valueCopyright = "translateX(" + num + "px)";
+		} else if ( $window.scrollLeft() >= leftMax ) {
+			// header
+			num = leftMax + (windowWidth/2 - headerWidth/2);
+			valueHeader = "translateX(" + num + "px)";
+			//info
+			num = leftMax + (windowWidth/2 - infoWidth/2);
+			valueInfo = "translateX(" + num + "px)";
+			// copyright
+			num = leftMax + (windowWidth/2 - copyWidth/2);
+			valueCopyright = "translateX(" + num + "px)";
+		} else {
+			// header
+			valueHeader = "translateX(0px)";
+			// info
+			valueInfo = "translateX(0px)";
+			// copyright
+			valueCopyright = "translateX(0px)";
+		}
+
+		properties = {
+			'-webkit-transform': valueHeader,
+			'-moz-transform':    valueHeader,
+			'-ms-transform':     valueHeader,
+			'-o-transform':      valueHeader,
+			'transform':         valueHeader
+		};
+		$header.css( properties );
+
+		properties = {
+			'-webkit-transform': valueInfo,
+			'-moz-transform':    valueInfo,
+			'-ms-transform':     valueInfo,
+			'-o-transform':      valueInfo,
+			'transform':         valueInfo
+		};
+		$info.css( properties );
+
+		properties = {
+			'-webkit-transform': valueCopyright,
+			'-moz-transform':    valueCopyright,
+			'-ms-transform':     valueCopyright,
+			'-o-transform':      valueCopyright,
+			'transform':         valueCopyright
+		};
+		$copyright.css( properties );
 	};
 	
 	// STUDIOHANSRAJ public variables & methods

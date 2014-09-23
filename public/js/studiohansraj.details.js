@@ -17,11 +17,20 @@ STUDIOHANSRAJ.Details = (function(STUDIOHANSRAJ, window, undefined){
 	
 	var config = {
 		initialized: false
-	}, widthAccumulator = 0,
+	}, 
+	widthAccumulator = 0,
+	totalImages = $('#details ul li img').length,
+	callback,
+	loaded = 0,
 
 	_imageOnloadHandler = function ( target ) {
+		loaded++;
 		widthAccumulator += target.width() + 10;
 		$('#details ul').width( widthAccumulator + 10 );
+		console.log ( loaded, totalImages );
+		if ( loaded == totalImages ) {
+			callback();
+		}
 	},
 
 	/**
@@ -30,8 +39,10 @@ STUDIOHANSRAJ.Details = (function(STUDIOHANSRAJ, window, undefined){
 	 * @function
 	 * @description
 	 */
-	_initialize = function() {
+	_initialize = function( cb ) {
 		console.log ( 'STUDIOHANSRAJ.Details.initialize ' );
+
+		callback = cb;
 		var scope = this;
 
 		$('#details ul li img').each( function() {

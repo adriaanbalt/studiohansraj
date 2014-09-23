@@ -4,4 +4,12 @@
 	position: absolute;
 	width: 100%;
 	text-align: center;
+	.headline {
+		position: relative;
+		// hei
+		.headline-container{
+			// position: absolute;
+			// left: 50%;
+		}
+	}
 }

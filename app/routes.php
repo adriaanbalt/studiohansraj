@@ -4,7 +4,7 @@
 // 	var_dump($sql);
 // });
 
-Route::get('/', 'SculptureController@index');
+Route::get('/', 'SetDesignController@index');
 Route::get('/sculpture', 'SculptureController@index');
 Route::get('/sculpture/{id}', 'SculptureController@details');
 Route::get('/setdesign', 'SetDesignController@index');

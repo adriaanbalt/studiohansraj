@@ -1,8 +1,10 @@
 @section('content')
 <div id='details'>
-	<h2>{{ $name }}</h2>
+	<header>
+		<h2>{{ $name }}</h2>
+	</header>
 
-	<ul class='images clearfix'>
+	<ul class='clearfix'>
 	@foreach( $photos as $item )
 	<li>
 		<img src="{{ URL::asset( $item->path ) }}"/>

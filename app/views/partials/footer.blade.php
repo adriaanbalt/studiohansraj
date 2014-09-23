@@ -9,6 +9,8 @@
 	<p class='email'>
 		<a href='mailto:{{ $data->email }}'>{{ $data->email }}</a>
 	</p>
-	<a class="balt" href="http://www.balt.us">website by BALT</a>
-	<p class='copyright'>2014</p>
+	<div class='copyright'>
+		<a class="balt" href="http://www.balt.us">website by BALT</a>
+		<p>2014</p>
+	</div>
 </footer>

@@ -24,6 +24,7 @@ class CreateContactTable extends Migration {
 			$table->string('email');
 			$table->string('address');
 			$table->string('website');
+			$table->string('googlemap');
 			
 			$table->timestamps();
 		});

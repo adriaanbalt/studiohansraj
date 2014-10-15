@@ -42,7 +42,7 @@ window.STUDIOHANSRAJ = (function(self, window, undefined){
 		var rwdResizeData = RwdResize.initialize({
 			small: 640,
 			medium: 1024,
-			large: 1140
+			large: 1280
 		}, STUDIOHANSRAJ.$body );
 
 		$header 		= $('header');
@@ -62,7 +62,7 @@ window.STUDIOHANSRAJ = (function(self, window, undefined){
 
 	imagesLoaded = function() {
 		headerWidth 	= $header.width()
-		detailsWidth 	= $details.width();
+		detailsWidth 	= STUDIOHANSRAJ.Details.getWidth();
 		infoWidth		= $info.width();
 		copyWidth		= $copyright.width();
 		leftMax 		= detailsWidth - windowWidth;
@@ -71,7 +71,7 @@ window.STUDIOHANSRAJ = (function(self, window, undefined){
 	scolling = function(event) {
 		var valueHeader, valueInfo, valueCopyright, properties, num;
 
-		console.log ( $window.scrollLeft(), leftMax );
+		leftMax = STUDIOHANSRAJ.Details.getWidth() - windowWidth;
 
 		// HEADER
 		if ( 0 < $window.scrollLeft() && $window.scrollLeft() < leftMax ) {

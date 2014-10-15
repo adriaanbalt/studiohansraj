@@ -22,15 +22,31 @@ STUDIOHANSRAJ.Details = (function(STUDIOHANSRAJ, window, undefined){
 	totalImages = $('#details ul li img').length,
 	callback,
 	loaded = 0,
+	$details = $('#details ul'),
+	$detailsIMGS = $('#details ul img'),
 
 	_imageOnloadHandler = function ( target ) {
 		loaded++;
 		widthAccumulator += target.width() + 10;
-		$('#details ul').width( widthAccumulator + 10 );
-		console.log ( loaded, totalImages );
+		// $details.width( widthAccumulator + 10 );
 		if ( loaded == totalImages ) {
 			callback();
+			resize( RwdResize.getLayoutByWidth() );
 		}
+	},
+
+	resize = function( evt ) {
+		if ( evt == 'small' || evt.layout == 'small' ) {
+			$details.width( "auto" );
+			$detailsIMGS.width( '100%' );
+		} else {
+			$details.width( widthAccumulator + 10 );
+			$detailsIMGS.width( 'auto' );
+		}
+	},
+
+	_getWidth = function(){
+		return $details.width();
 	},
 
 	/**
@@ -43,6 +59,9 @@ STUDIOHANSRAJ.Details = (function(STUDIOHANSRAJ, window, undefined){
 		console.log ( 'STUDIOHANSRAJ.Details.initialize ' );
 
 		callback = cb;
+
+		this.resize_uid = RwdResize.subscribe(resize, this);
+
 		var scope = this;
 
 		$('#details ul li img').each( function() {
@@ -61,13 +80,14 @@ STUDIOHANSRAJ.Details = (function(STUDIOHANSRAJ, window, undefined){
 			}
 		});
 
-		$('#details ul').width( widthAccumulator + 10 );
+		$details.width( widthAccumulator + 10 );
 	};
 
 	// public methods for this class
 	return {
 		initialize: _initialize,
-		imageOnloadHandler: _imageOnloadHandler
+		imageOnloadHandler: _imageOnloadHandler,
+		getWidth: _getWidth
 	};
 
 }(STUDIOHANSRAJ, window, undefined));

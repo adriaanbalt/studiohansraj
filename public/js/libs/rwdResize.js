@@ -173,7 +173,8 @@ window.RwdResize = (function(self, PubSub, window, undefined){
 	return {
 		initialize: _initialize,
 		subscribe: _subscribe,
-		unsubscribe: _unsubscribe
+		unsubscribe: _unsubscribe,
+		getLayoutByWidth: _getLayoutByWidth
 	};
 	
 }({}, PubSub, window, undefined));

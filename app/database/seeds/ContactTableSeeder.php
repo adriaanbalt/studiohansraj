@@ -8,13 +8,14 @@ class ContactTableSeeder extends Seeder {
 
 		$array = array(
 			array(
-					'name' => '',
+					'name' => 'Hansraj Mahawaral',
 					'position' => '',
 					'telephone' => '',
 					'fax' => '',
 					'email' => '',
 					'address' => '',
-					'website' => ''
+					'website' => '',
+					'googlemap' => 'https://goo.gl/maps/LFrTJ'
 			)
 		);
 
@@ -22,11 +23,3 @@ class ContactTableSeeder extends Seeder {
 	}
 
 }
-
-
-/*
-    $table->string('telephone');
-    $table->string('fax');
-    $table->string('email');
-    $table->string('address');
-*/

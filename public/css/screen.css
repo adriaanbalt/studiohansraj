@@ -119,14 +119,14 @@ p {
 /* line 35, ../../sass/_fonts.scss */
 body {
   color: black;
-  font-family: ContaxSans55;
+  font-family: 'ContaxSans55';
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
 }
 
 /* line 42, ../../sass/_fonts.scss */
 h1 {
-  font-family: ContaxSans55;
+  font-family: 'ContaxSans55';
   font-weight: normal;
   font-size: 96px;
   text-align: center;
@@ -136,9 +136,9 @@ h1 {
 
 /* line 51, ../../sass/_fonts.scss */
 h2 {
-  font-family: ContaxSans55;
+  font-family: 'ContaxSans55';
   font-weight: normal;
-  font-size: 40px;
+  font-size: 25px;
   letter-spacing: 2px;
   line-height: 38px;
   color: black;
@@ -147,7 +147,7 @@ h2 {
 
 /* line 61, ../../sass/_fonts.scss */
 h3 {
-  font-family: ContaxSans55;
+  font-family: 'ContaxSans55';
   font-weight: normal;
   font-weight: normal;
   text-align: center;
@@ -250,7 +250,7 @@ i {
 
 /* line 151, ../../sass/_fonts.scss */
 b, strong {
-  font-family: ContaxSans55;
+  font-family: 'ContaxSans55';
   font-weight: normal;
   color: #1f1f1f;
 }
@@ -262,6 +262,12 @@ a {
   text-decoration: none;
 }
 
+@media only screen and (min-width: 1024px) {
+  /* line 167, ../../sass/_fonts.scss */
+  h2 {
+    font-size: 40px;
+  }
+}
 /* line 2, ../../sass/_layout.scss */
 .clearfix:before,
 .clearfix:after {
@@ -556,11 +562,17 @@ section {
 }
 /* line 1, ../../sass/_logo.scss */
 .logo {
-  width: 50%;
+  width: 90%;
   margin: 1em auto;
   display: block;
 }
 
+@media only screen and (min-width: 1024px) {
+  /* line 10, ../../sass/_logo.scss */
+  .logo {
+    width: 50%;
+  }
+}
 /* line 1, ../../sass/_intro.scss */
 #intro {
   background-image: url(../images/records/record.jpg);
@@ -720,14 +732,25 @@ section {
 }
 /* line 7, ../../sass/_details.scss */
 #details .information p {
+  margin-bottom: 0;
   display: inline-block;
 }
-/* line 12, ../../sass/_details.scss */
+/* line 13, ../../sass/_details.scss */
 #details ul li {
   margin: 0 0 0 10px;
   float: left;
 }
 
+@media screen and (max-width: 640px) {
+  /* line 28, ../../sass/_details.scss */
+  #details ul li {
+    float: none;
+  }
+  /* line 36, ../../sass/_details.scss */
+  #details .information p {
+    margin-bottom: 1em;
+  }
+}
 /* line 1, ../../sass/_about.scss */
 #about {
   margin: 3em;

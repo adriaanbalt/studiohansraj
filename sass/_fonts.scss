@@ -34,13 +34,13 @@
 
 body {
 	color: $p-color;
-	font-family: ContaxSans55;
+	font-family: 'ContaxSans55';
 	font-weight: normal;
 	-webkit-font-smoothing: antialiased;
 }
 
 h1 {
-	font-family: ContaxSans55;
+	font-family: 'ContaxSans55';
 	font-weight: normal;
 	font-size: 96px;
 	text-align: center;
@@ -49,9 +49,9 @@ h1 {
 }
 
 h2 {
-	font-family: ContaxSans55;
+	font-family: 'ContaxSans55';
 	font-weight: normal;
-	font-size: 40px;
+	font-size: 25px;
 	letter-spacing: 2px;
 	line-height: 38px;
 	color: $h2-color;
@@ -59,7 +59,7 @@ h2 {
 }
 
 h3 {
-	font-family: ContaxSans55;
+	font-family: 'ContaxSans55';
 	font-weight: normal;
 	font-weight: normal;
 	text-align: center;
@@ -149,7 +149,7 @@ i {
 }
 
 b, strong {
-	font-family: ContaxSans55;
+	font-family: 'ContaxSans55';
 	font-weight: normal;
 	color: #1f1f1f;
 }
@@ -163,13 +163,10 @@ a:visited {
 }
 
 
-@media only screen and (max-width: $breakpointLarge){
-
+@media only screen and (min-width: $breakpointTablet){
+	h2 {
+		font-size: 40px;
+	}
 }
-
-@media only screen and (max-width: $breakpointTablet){
-
-}
-
 
 

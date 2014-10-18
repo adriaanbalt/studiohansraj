@@ -1,6 +1,13 @@
 #listing {
 	padding: 0 0 5em 0;
 	ul {
+		&.hide {
+			@include opacity(0);
+		}
+		&.show {
+			@include opacity(1);
+		}
+		@include transition( opacity, 1s, ease-in-out );
 		padding: .15em;
 		// padding: .5%;
 		li {
@@ -64,13 +71,6 @@
 	}
 }
 
-/* Again, you're free to use and define the classes: */
-.column { float: left; }
-.size-1of1 { width: 100%; }
-.size-1of2 { width: 50%; }
-.size-1of3 { width: 33.333%; }
-.size-1of4 { width: 25%; }
-.size-1of5 { width: 20%; }
 
 
 /* Also, don't forget to add this: */
@@ -81,6 +81,11 @@
     visibility: hidden;
 }
 
+/* Again, you’re free to use and define the classes: */
+.column { float: left; }
+.size-1of1 { width: 100%; }
+.size-1of2 { width: 50%; }
+.size-1of3 { width: 33.333%; }
 
 @media screen and (max-width: 480px){
 	#grid[data-columns]::before {

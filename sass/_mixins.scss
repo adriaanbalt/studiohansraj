@@ -82,6 +82,7 @@ $vendors: webkit, moz, ms, o;
 @mixin transition( $prop, $duration, $ease, $delay: 0 ) {
 	-webkit-transition: $prop $duration $ease $delay;
 	-moz-transition: $prop $duration $ease $delay;
+	-ms-transition: $prop $duration $ease $delay;
 	-o-transition: $prop $duration $ease $delay;
 	transition: $prop $duration $ease $delay;
 }

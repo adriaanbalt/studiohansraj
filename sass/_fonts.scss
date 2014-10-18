@@ -23,7 +23,7 @@
 */
 
 /* @import must be at top of file, otherwise CSS will not work */
-@import url("//hello.myfonts.net/count/2beb46");
+// @import url("//hello.myfonts.net/count/2beb46");
 
   
 @font-face {font-family: 'ContaxSans56-Italic';src: url('fonts/2BEB46_0_0.eot');src: url('fonts/2BEB46_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/2BEB46_0_0.woff') format('woff'),url('fonts/2BEB46_0_0.ttf') format('truetype');}
@@ -136,7 +136,7 @@ dd {
 p {
 	color: $p-color;
 	font-weight: normal;
-	font-size: 21px;
+	font-size: 19px;
 	letter-spacing: 0;
 	line-height: 1.25em;
 }
@@ -158,6 +158,7 @@ a{
 	letter-spacing: 2px;
 	color: $a-color;
 	font-weight: bold;
+	font-size: 23px;
 	text-decoration: none;
 }
 a:visited {

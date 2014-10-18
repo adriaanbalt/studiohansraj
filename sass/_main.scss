@@ -9,6 +9,29 @@
 		width: 100%;
 	}
 }
+.loader-container{
+	position: relative;
+	height: 50px;
+	display: none;
+	&.show {
+		display: block;
+		.loader {
+			@include opacity(1);
+		}
+	}
+	.loader {
+		background: url('../images/icon-ajax-loader.gif');
+		display: block;
+		width:40px;
+		height:40px;
+		position: absolute;
+		z-index: 100;
+		left: 50%;
+		margin-left: -20px;
+		@include opacity(0);
+		@include transition( opacity, .5s, ease-in-out );
+	}
+}
 
 // .scroll {
 // 	#details {

@@ -236,7 +236,7 @@ p {
   color: black;
   font-weight: normal;
   font-size: 21px;
-  letter-spacing: 0.041em;
+  letter-spacing: 0;
   line-height: 1.25em;
 }
 
@@ -257,13 +257,14 @@ b, strong {
 
 /* line 157, ../../sass/_fonts.scss */
 a {
+  letter-spacing: 2px;
   color: black;
-  font-weight: normal;
+  font-weight: bold;
   text-decoration: none;
 }
 
 @media only screen and (min-width: 1024px) {
-  /* line 167, ../../sass/_fonts.scss */
+  /* line 168, ../../sass/_fonts.scss */
   h2 {
     font-size: 40px;
   }
@@ -745,8 +746,9 @@ section {
   /* line 28, ../../sass/_details.scss */
   #details ul li {
     float: none;
+    margin: 10px;
   }
-  /* line 36, ../../sass/_details.scss */
+  /* line 37, ../../sass/_details.scss */
   #details .information p {
     margin-bottom: 1em;
   }

@@ -32,6 +32,8 @@ STUDIOHANSRAJ.Details = (function(STUDIOHANSRAJ, window, undefined){
 		if ( loaded == totalImages ) {
 			callback();
 			resize( RwdResize.getLayoutByWidth() );
+			// fade in
+			$details.addClass('show');
 		}
 	},
 

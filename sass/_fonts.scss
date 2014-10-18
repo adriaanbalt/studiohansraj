@@ -137,7 +137,7 @@ p {
 	color: $p-color;
 	font-weight: normal;
 	font-size: 21px;
-	letter-spacing: 0.041em;
+	letter-spacing: 0;
 	line-height: 1.25em;
 }
 
@@ -155,8 +155,9 @@ b, strong {
 }
 
 a{
+	letter-spacing: 2px;
 	color: $a-color;
-	font-weight: normal;
+	font-weight: bold;
 	text-decoration: none;
 }
 a:visited {

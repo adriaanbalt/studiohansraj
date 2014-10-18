@@ -77,6 +77,12 @@ class SetDesignPhotosTableSeeder extends Seeder {
 			array(
 					'title' => '',
 					'slug' => '',
+					'path' => 'images/19Jake_Jones_FW/jakejones-fw-06.jpg',
+					'setdesign_id' => '19'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
 					'path' => 'images/18Out_Mag/outmagazine-01.jpg',
 					'setdesign_id' => '18'
 			),
@@ -426,12 +432,6 @@ class SetDesignPhotosTableSeeder extends Seeder {
 					'title' => '',
 					'slug' => '',
 					'path' => 'images/10Jake_Jones_Test/jakejones-05.jpg',
-					'setdesign_id' => '10'
-			),
-			array(
-					'title' => '',
-					'slug' => '',
-					'path' => 'images/10Jake_Jones_Test/jakejones-06.jpg',
 					'setdesign_id' => '10'
 			),
 			array(

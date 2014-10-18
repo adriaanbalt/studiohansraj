@@ -166,7 +166,7 @@ class SetDesignTableSeeder extends Seeder {
 					'makeup_url' => 'http://www.susiesobol.com/',
 					'hair' => 'Kayla MiChele',
 					'hair_url' => 'http://kaylamichele.com/',
-					'cover_photo' => 'images/08The_Last_Magazine_Noir/lastmagazinenoir-01.jpg'
+					'cover_photo' => 'images/08The_Last_Magazine_Noir/lastmagazinenoir-08.jpg'
 			),
 			array(
 					'slug' => 'i-D-Magazine-1',
@@ -206,7 +206,7 @@ class SetDesignTableSeeder extends Seeder {
 					'makeup_url' => 'http://akikoowada.com/',
 					'hair' => 'Neil Grupp',
 					'hair_url' => 'http://neilgrupp.com/',
-					'cover_photo' => 'images/10Jake_Jones_Test/jakejones-01.jpg'
+					'cover_photo' => 'images/10Jake_Jones_Test/jakejones-02.jpg'
 			),
 			array(
 					'slug' => 'i-D-Magazine-2',
@@ -246,7 +246,7 @@ class SetDesignTableSeeder extends Seeder {
 					'makeup_url' => 'http://www.dripbook.com/yinnawang/',
 					'hair' => 'Tony Kelley',
 					'hair_url' => 'http://www.tonykelleyhair.com/',
-					'cover_photo' => 'images/12Kim_Haller/kimhaller-01.jpg'
+					'cover_photo' => 'images/12Kim_Haller/kimhaller-04.jpg'
 			),
 			array(
 					'slug' => 'Vogue-Australia',
@@ -346,7 +346,7 @@ class SetDesignTableSeeder extends Seeder {
 					'makeup_url' => '',
 					'hair' => '',
 					'hair_url' => '',
-					'cover_photo' => 'images/17AF_PERSONAL_FINALS/afpersonal-01.jpg'
+					'cover_photo' => 'images/17AF_PERSONAL_FINALS/afpersonal-04.jpg'
 			),
 			array(
 					'slug' => 'Out-Magazine',
@@ -386,7 +386,7 @@ class SetDesignTableSeeder extends Seeder {
 					'makeup_url' => 'http://akikoowada.com/',
 					'hair' => 'Kiyo Igarashi',
 					'hair_url' => 'http://www.kiyoigarashi.com',
-					'cover_photo' => 'images/19Jake_Jones_FW/jakejones-fw-01.jpg'
+					'cover_photo' => 'images/19Jake_Jones_FW/jakejones-fw-02.jpg'
 			),
 			array(
 					'slug' => 'The-Last-Magazine-2',

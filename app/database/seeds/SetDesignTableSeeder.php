@@ -46,7 +46,7 @@ class SetDesignTableSeeder extends Seeder {
 					'makeup_url' => 'http://art-dept.com/makeup/tracy-alfajora/editorial-i',
 					'hair' => 'Shane Thomas',
 					'hair_url' => 'http://www.shanethomas.com/',
-					'cover_photo' => 'images/02Wolf_Magazine/wolfmagazine-01.jpg'
+					'cover_photo' => 'images/02Wolf_Magazine/wolfmagazine-thumbnail.jpg'
 			),
 			array(
 					'slug' => 'Mens-World',
@@ -106,7 +106,7 @@ class SetDesignTableSeeder extends Seeder {
 					'makeup_url' => '',
 					'hair' => '',
 					'hair_url' => '',
-					'cover_photo' => 'images/05Seedless/seedless-01.jpg'
+					'cover_photo' => 'images/05Seedless/seedless-thumbnail.jpg'
 			),
 			array(
 					'slug' => 'Marfa-Journal',
@@ -169,7 +169,7 @@ class SetDesignTableSeeder extends Seeder {
 					'cover_photo' => 'images/08The_Last_Magazine_Noir/lastmagazinenoir-01.jpg'
 			),
 			array(
-					'slug' => 'i-D-Magazine',
+					'slug' => 'i-D-Magazine-1',
 					'name' => 'i-D Magazine',
 					'client' => 'i-D Magazine',
 					'client_url' => 'http://i-d.vice.com/en_gb/',
@@ -209,7 +209,7 @@ class SetDesignTableSeeder extends Seeder {
 					'cover_photo' => 'images/10Jake_Jones_Test/jakejones-01.jpg'
 			),
 			array(
-					'slug' => 'i-D-Magazine',
+					'slug' => 'i-D-Magazine-2',
 					'name' => 'i-D Magazine',
 					'client' => 'i-D Magazine',
 					'client_url' => 'http://i-d.vice.com/en_gb/',
@@ -266,7 +266,7 @@ class SetDesignTableSeeder extends Seeder {
 					'makeup_url' => 'http://www.susiesobol.com/',
 					'hair' => '',
 					'hair_url' => '',
-					'cover_photo' => 'images/13Vogue_Australia/vogueaustralia-01.jpg'
+					'cover_photo' => 'images/13Vogue_Australia/vogueaustralia-thumbnail.jpg'
 			),
 			array(
 					'slug' => 'Club-Monaco',

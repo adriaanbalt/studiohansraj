@@ -56,8 +56,11 @@ window.STUDIOHANSRAJ = (function(self, window, undefined){
 		STUDIOHANSRAJ.Nav.initialize();
 		STUDIOHANSRAJ.Details.initialize( imagesLoaded );
 
+		this.resize_uid = RwdResize.subscribe(resize, this);
+
 		// prevent bootstrap from executing twice
 		self.initialized = true;
+
 	},
 
 	imagesLoaded = function() {
@@ -73,60 +76,61 @@ window.STUDIOHANSRAJ = (function(self, window, undefined){
 
 		leftMax = STUDIOHANSRAJ.Details.getWidth() - windowWidth;
 
-		// HEADER
-		if ( 0 < $window.scrollLeft() && $window.scrollLeft() < leftMax ) {
-			// header
-			num = $window.scrollLeft() + (windowWidth/2 - headerWidth/2);
-			valueHeader = "translateX(" + num + "px)";
-			// info
-			num = $window.scrollLeft() + (windowWidth/2 - infoWidth/2);
-			valueInfo = "translateX(" + num + "px)";
-			// copyright
-			num = $window.scrollLeft() + (windowWidth/2 - copyWidth/2);
-			valueCopyright = "translateX(" + num + "px)";
-		} else if ( $window.scrollLeft() >= leftMax ) {
-			// header
-			num = leftMax + (windowWidth/2 - headerWidth/2);
-			valueHeader = "translateX(" + num + "px)";
-			//info
-			num = leftMax + (windowWidth/2 - infoWidth/2);
-			valueInfo = "translateX(" + num + "px)";
-			// copyright
-			num = leftMax + (windowWidth/2 - copyWidth/2);
-			valueCopyright = "translateX(" + num + "px)";
-		} else {
-			// header
-			valueHeader = "translateX(0px)";
-			// info
-			valueInfo = "translateX(0px)";
-			// copyright
-			valueCopyright = "translateX(0px)";
+		if ( RwdResize.getLayoutByWidth() == "small" ) {
+			leftMax = 0;
 		}
 
+		if ( 0 < $window.scrollLeft() && $window.scrollLeft() < leftMax ) {
+			// header
+			valueHeader = $window.scrollLeft() + (windowWidth/2 - headerWidth/2);
+			// info
+			valueInfo = $window.scrollLeft() + (windowWidth/2 - infoWidth/2);
+			// copyright
+			valueCopyright = $window.scrollLeft() + (windowWidth/2 - copyWidth/2);
+		} else if ( $window.scrollLeft() >= leftMax ) {
+			// header
+			valueHeader = leftMax + (windowWidth/2 - headerWidth/2);
+			//info
+			valueInfo = leftMax + (windowWidth/2 - infoWidth/2);
+			// copyright
+			valueCopyright = leftMax + (windowWidth/2 - copyWidth/2);
+		} else {
+			// header
+			valueHeader = 0;
+			// info
+			valueInfo = 0;
+			// copyright
+			valueCopyright = 0;
+		}
+
+		headerTransform = "translateX(" + valueHeader + "px)"
+		infoTransform = "translateX(" + valueInfo + "px)"
+		copyrightTransform = "translateX(" + valueCopyright + "px)"
+
 		properties = {
-			'-webkit-transform': valueHeader,
-			'-moz-transform':    valueHeader,
-			'-ms-transform':     valueHeader,
-			'-o-transform':      valueHeader,
-			'transform':         valueHeader
+			'-webkit-transform': headerTransform,
+			'-moz-transform':    headerTransform,
+			'-ms-transform':     headerTransform,
+			'-o-transform':      headerTransform,
+			'transform':         headerTransform
 		};
 		$header.css( properties );
 
 		properties = {
-			'-webkit-transform': valueInfo,
-			'-moz-transform':    valueInfo,
-			'-ms-transform':     valueInfo,
-			'-o-transform':      valueInfo,
-			'transform':         valueInfo
+			'-webkit-transform': infoTransform,
+			'-moz-transform':    infoTransform,
+			'-ms-transform':     infoTransform,
+			'-o-transform':      infoTransform,
+			'transform':         infoTransform
 		};
 		$info.css( properties );
 
 		properties = {
-			'-webkit-transform': valueCopyright,
-			'-moz-transform':    valueCopyright,
-			'-ms-transform':     valueCopyright,
-			'-o-transform':      valueCopyright,
-			'transform':         valueCopyright
+			'-webkit-transform': copyrightTransform,
+			'-moz-transform':    copyrightTransform,
+			'-ms-transform':     copyrightTransform,
+			'-o-transform':      copyrightTransform,
+			'transform':         copyrightTransform
 		};
 		$copyright.css( properties );
 	};

@@ -37,8 +37,8 @@ STUDIOHANSRAJ.Details = (function(STUDIOHANSRAJ, window, undefined){
 
 	resize = function( evt ) {
 		if ( evt == 'small' || evt.layout == 'small' ) {
-			$details.width( "auto" );
 			$detailsIMGS.width( '100%' );
+			$details.width( "auto" );
 		} else {
 			$details.width( widthAccumulator + 10 );
 			$detailsIMGS.width( 'auto' );
@@ -80,7 +80,7 @@ STUDIOHANSRAJ.Details = (function(STUDIOHANSRAJ, window, undefined){
 			}
 		});
 
-		$details.width( widthAccumulator + 10 );
+		// $details.width( widthAccumulator + 10 );
 	};
 
 	// public methods for this class

@@ -1,6 +1,6 @@
 @section('content')
 <div id='listing'>
-	<ul id='grid' class='clearfix' data-columns>
+	<ul id='grid' class='clearfix hide' data-columns>
 @foreach( $data as $item )
 		<li>
 			<a href="http://www.studiohansraj.com/setdesign/{{ $item->slug }}">

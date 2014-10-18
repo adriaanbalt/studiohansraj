@@ -38,6 +38,9 @@
 					@include('partials.logo')
 					@include('partials.navigation', array('status'=>'closed'))
 				</header>
+				<div class='loader-container show'>
+					<div class='loader'></div>
+				</div>
 				@yield('content')
 				@include('partials.footer')
 			</div>
@@ -66,6 +69,7 @@
 
 		<script src="{{ url('js/studiohansraj.js') }}" type="text/javascript"></script>
 		<script src="{{ url('js/studiohansraj.intro.js') }}" type="text/javascript"></script>
+		<script src="{{ url('js/studiohansraj.listing.js') }}" type="text/javascript"></script>
 		<script src="{{ url('js/studiohansraj.details.js') }}" type="text/javascript"></script>
 		<script src="{{ url('js/studiohansraj.nav.js') }}" type="text/javascript"></script>
 

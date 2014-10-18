@@ -4,7 +4,7 @@
 		<h2>{{ $name }}</h2>
 	</header>
 
-	<ul class='clearfix'>
+	<ul class='clearfix hide'>
 	@foreach( $photos as $item )
 	<li>
 		<img src="{{ URL::asset( $item->path ) }}"/>

@@ -77,12 +77,6 @@ class SetDesignPhotosTableSeeder extends Seeder {
 			array(
 					'title' => '',
 					'slug' => '',
-					'path' => 'images/19Jake_Jones_FW/jakejones-fw-06.jpg',
-					'setdesign_id' => '19'
-			),
-			array(
-					'title' => '',
-					'slug' => '',
 					'path' => 'images/18Out_Mag/outmagazine-01.jpg',
 					'setdesign_id' => '18'
 			),
@@ -563,13 +557,13 @@ class SetDesignPhotosTableSeeder extends Seeder {
 			array(
 					'title' => '',
 					'slug' => '',
-					'path' => 'images/06Marfa_Journal/marfa-01.jpg',
+					'path' => 'images/06Marfa_Journal/marfa-02.jpg',
 					'setdesign_id' => '6'
 			),
 			array(
 					'title' => '',
 					'slug' => '',
-					'path' => 'images/06Marfa_Journal/marfa-02.jpg',
+					'path' => 'images/06Marfa_Journal/marfa-01.jpg',
 					'setdesign_id' => '6'
 			),
 			array(

@@ -126,7 +126,7 @@ class SetDesignTableSeeder extends Seeder {
 					'makeup_url' => 'http://www.georgisandev.com/index2.php#/home/',
 					'hair' => 'Kayla Michele',
 					'hair_url' => 'http://kaylamichele.com/',
-					'cover_photo' => 'images/06Marfa_Journal/marfa-01.jpg'
+					'cover_photo' => 'images/06Marfa_Journal/marfa-02.jpg'
 			),
 			array(
 					'slug' => 'Society',

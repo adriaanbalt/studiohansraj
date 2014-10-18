@@ -11,6 +11,6 @@
 	</p>
 	<div class='copyright'>
 		<a class="balt" href="http://www.balt.us">website by BALT</a>
-		<p>2014</p>
+		<p><?php echo date("Y"); ?></p>
 	</div>
 </footer>

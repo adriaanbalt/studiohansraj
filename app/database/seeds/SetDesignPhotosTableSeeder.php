@@ -8,6 +8,217 @@ class SetDesignPhotosTableSeeder extends Seeder {
 		DB::table('setdesign_photos')->delete();
 
 		$array = array(
+
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/26Club-Monaco-Collection/Club-Monaco-Collection-1.jpg',
+					'setdesign_id' => '26'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/26Club-Monaco-Collection/Club-Monaco-Collection-2.jpg',
+					'setdesign_id' => '26'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/26Club-Monaco-Collection/Club-Monaco-Collection-3.jpg',
+					'setdesign_id' => '26'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/26Club-Monaco-Collection/Club-Monaco-Collection-4.jpg',
+					'setdesign_id' => '26'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/26Club-Monaco-Collection/Club-Monaco-Collection-5.jpg',
+					'setdesign_id' => '26'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/26Club-Monaco-Collection/Club-Monaco-Collection-6.jpg',
+					'setdesign_id' => '26'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/26Club-Monaco-Collection/Club-Monaco-Collection-7.jpg',
+					'setdesign_id' => '26'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/26Club-Monaco-Collection/Club-Monaco-Collection-8.jpg',
+					'setdesign_id' => '26'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/26Club-Monaco-Collection/Club-Monaco-Collection-9.jpg',
+					'setdesign_id' => '26'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/25Barneys/barneys-1.jpg',
+					'setdesign_id' => '25'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/25Barneys/barneys-2.jpg',
+					'setdesign_id' => '25'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/25Barneys/barneys-3.jpg',
+					'setdesign_id' => '25'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/25Barneys/barneys-4.jpg',
+					'setdesign_id' => '25'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/24Club-Monaco-Party-Shop/Club-Monaco-Party-Shop-1.jpg',
+					'setdesign_id' => '24'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/24Club-Monaco-Party-Shop/Club-Monaco-Party-Shop-2.jpg',
+					'setdesign_id' => '24'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/24Club-Monaco-Party-Shop/Club-Monaco-Party-Shop-3.jpg',
+					'setdesign_id' => '24'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/24Club-Monaco-Party-Shop/Club-Monaco-Party-Shop-4.jpg',
+					'setdesign_id' => '24'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/24Club-Monaco-Party-Shop/Club-Monaco-Party-Shop-5.jpg',
+					'setdesign_id' => '24'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/23CREEM-MAGAZINE/01.jpg',
+					'setdesign_id' => '23'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/23CREEM-MAGAZINE/02.jpg',
+					'setdesign_id' => '23'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/23CREEM-MAGAZINE/03.jpg',
+					'setdesign_id' => '23'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/23CREEM-MAGAZINE/04.jpg',
+					'setdesign_id' => '23'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/23CREEM-MAGAZINE/05.jpg',
+					'setdesign_id' => '23'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/23CREEM-MAGAZINE/06.jpg',
+					'setdesign_id' => '23'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/22Grey-Magazine/Grey-Magazine-1.jpg',
+					'setdesign_id' => '22'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/22Grey-Magazine/Grey-Magazine-2.jpg',
+					'setdesign_id' => '22'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/22Grey-Magazine/Grey-Magazine-3.jpg',
+					'setdesign_id' => '22'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/22Grey-Magazine/Grey-Magazine-4.jpg',
+					'setdesign_id' => '22'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/22Grey-Magazine/Grey-Magazine-5.jpg',
+					'setdesign_id' => '22'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/22Grey-Magazine/Grey-Magazine-6.jpg',
+					'setdesign_id' => '22'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/21Jonathan-Cohen-FW-2014/Jonathan-Cohen-FW-2014-1.jpg',
+					'setdesign_id' => '21'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/21Jonathan-Cohen-FW-2014/Jonathan-Cohen-FW-2014-2.jpg',
+					'setdesign_id' => '21'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/21Jonathan-Cohen-FW-2014/Jonathan-Cohen-FW-2014-3.jpg',
+					'setdesign_id' => '21'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/21Jonathan-Cohen-FW-2014/Jonathan-Cohen-FW-2014-4.jpg',
+					'setdesign_id' => '21'
+			),
+			array(
+					'title' => '',
+					'slug' => '',
+					'path' => 'images/21Jonathan-Cohen-FW-2014/Jonathan-Cohen-FW-2014-5.jpg',
+					'setdesign_id' => '21'
+			),
 			array(
 					'title' => '',
 					'slug' => '',

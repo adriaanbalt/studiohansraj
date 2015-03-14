@@ -407,7 +407,136 @@ class SetDesignTableSeeder extends Seeder {
 					'hair' => '',
 					'hair_url' => '',
 					'cover_photo' => 'images/20The-Last-Mag/last-magazine-01.jpg'
+			),
+
+// Publication: Grey Magazine
+// Fashion Editor: Concetta D’Angelo
+// Manicurist: Jin Soon Choi @ Jed Root
+
+			array(
+					'slug' => 'Jonathan-Cohen-FW-2014',
+					'name' => 'Jonathan Cohen FW 2014',
+					'client' => 'Jonathan Cohen Studio',
+					'client_url' => 'http://jonathancohenstudio.com/',
+					'director' => '',
+					'director_url' => '',
+					'photographer' => '',
+					'photographer_url' => '',
+					'stylist' => '',
+					'stylist_url' => '',
+					'talent' => '',
+					'talent_agency' => '',
+					'talent_url' => '',
+					'makeup' => '',
+					'makeup_url' => '',
+					'hair' => '',
+					'hair_url' => '',
+					'cover_photo' => 'images/21Jonathan-Cohen-FW-2014/thumb.jpg'
+			),
+			array(
+					'slug' => 'Grey-Magazine',
+					'name' => 'Grey Magazine',
+					'client' => 'Grey Magazine',
+					'client_url' => 'http://grey-magazine.com',
+					'director' => '',
+					'director_url' => '',
+					'photographer' => 'Spencer Ostrander',
+					'photographer_url' => '',
+					'stylist' => '',
+					'stylist_url' => '',
+					'talent' => 'Tali Lennox',
+					'talent_agency' => '',
+					'talent_url' => '',
+					'makeup' => 'Stefanie Willmann',
+					'makeup_url' => 'http://www.seemanagement.com/artists/stefaniewillmann/',
+					'hair' => 'Adam Markarian',
+					'hair_url' => 'http://bryanbantry.com',
+					'cover_photo' => 'images/22Grey-Magazine/thumb.jpg'
+			),
+			array(
+					'slug' => 'Creem-Magazine',
+					'name' => 'Creem Magazine',
+					'client' => 'Creem Magazine',
+					'client_url' => 'http://creemmag.com',
+					'director' => '',
+					'director_url' => '',
+					'photographer' => 'Barrett Sweger',
+					'photographer_url' => 'http://www.barrettsweger.com',
+					'stylist' => 'Lana Lackey',
+					'stylist_url' => 'http://www.lanajaylackey.com',
+					'talent' => '',
+					'talent_agency' => '',
+					'talent_url' => '',
+					'makeup' => '',
+					'makeup_url' => '',
+					'hair' => '',
+					'hair_url' => '',
+					'cover_photo' => 'images/23CREEM-MAGAZINE/thumb.jpg'
 			)
+			,
+			array(
+					'slug' => 'Club-Monaco',
+					'name' => 'Club Monaco',
+					'client' => 'Club Monaco',
+					'client_url' => 'http://www.clubmonaco.com',
+					'director' => '',
+					'director_url' => '',
+					'photographer' => 'Jai Odell',
+					'photographer_url' => 'http://www.jaiodell.com',
+					'stylist' => 'Lana Lackey',
+					'stylist_url' => '',
+					'talent' => 'Ji Hye Park + Vincent LaCrocq',
+					'talent_agency' => '',
+					'talent_url' => '',
+					'makeup' => 'Georgi Sandev',
+					'makeup_url' => 'http://georgisandev.com/index2.php',
+					'hair' => 'Marki Shkreli',
+					'hair_url' => 'http://www.markishkreli.com',
+					'cover_photo' => 'images/24Club-Monaco-Party-Shop/thumb.jpg'
+			),
+			array(
+					'slug' => 'barneys',
+					'name' => "BARNEY'S New York",
+					'client' => "BARNEY'S New York",
+					'client_url' => 'http://www.barneys.com',
+					'director' => '',
+					'director_url' => '',
+					'photographer' => 'Jai Odell',
+					'photographer_url' => 'http://www.jaiodell.com',
+					'stylist' => 'Andrew Dochen',
+					'stylist_url' => '',
+					'talent' => 'Karolin W',
+					'talent_agency' => 'http://www.nextmanagement.com',
+					'talent_url' => '',
+					'makeup' => 'Emi Kaneko',
+					'makeup_url' => 'http://www.emikaneko.com/',
+					'hair' => 'Takuya Sugawara',
+					'hair_url' => 'http://www.takuyasugawara.com',
+					'cover_photo' => 'images/25Barneys/thumb.jpg'
+			),
+			array(
+					'slug' => 'Club-Monaco-Collection',
+					'name' => "Club Monaco",
+					'client' => "Club Monaco",
+					'client_url' => 'http://www.clubmonaco.com',
+					'director' => '',
+					'director_url' => '',
+					'photographer' => 'Jai Odell',
+					'photographer_url' => 'http://www.jaiodell.com',
+					'stylist' => 'Andrew Dochen',
+					'stylist_url' => '',
+					'talent' => 'Luca Gadjus',
+					'talent_agency' => 'http://www.imgmodels.com',
+					'talent_url' => '',
+					'makeup' => 'Morgane Martini',
+					'makeup_url' => 'http://models.com/people/morgane-martini',
+					'hair' => 'Shin Arima',
+					'hair_url' => '',
+					'cover_photo' => 'images/26Club-Monaco-Collection/thumb.jpg'
+			)
+
+
+
 		);
 
 		

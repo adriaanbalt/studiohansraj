@@ -1,8 +1,5 @@
 @section('content')
 <div id='details'>
-	<header>
-		<h2>{{ $name }}</h2>
-	</header>
 
 	<ul class='clearfix hide'>
 	@foreach( $photos as $item )
@@ -12,6 +9,10 @@
 	@endforeach
 	</ul>
 
+	<header>
+		<h2>{{ $name }}</h2>
+	</header>
+	
 	<div class='information'>
 		@if ( $client && $client_url ) 
 		<p>Client: <a href="{{ $client_url }}" target="_blank">{{ $client }}</a></p>

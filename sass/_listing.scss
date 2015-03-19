@@ -1,13 +1,6 @@
 #listing {
 	padding: 0 0 5em 0;
 	ul {
-		&.hide {
-			@include opacity(0);
-		}
-		&.show {
-			@include opacity(1);
-		}
-		@include transition( opacity, 1s, ease-in-out );
 		padding: .15em;
 		// padding: .5%;
 		li {
@@ -41,6 +34,16 @@
 					}
 				}
 				img { 
+					@include opacity(0);
+					&.hide {
+						@include opacity(0);
+					}
+					&.loaded {
+						@include opacity(1);
+					}
+
+
+					@include transition( opacity, 1s, ease-in-out );
 					width: 100%;
 					z-index: 0;
 					top: 0;

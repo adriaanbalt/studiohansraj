@@ -26,6 +26,7 @@ STUDIOHANSRAJ.Listing = (function(STUDIOHANSRAJ, window, undefined){
 
 	_imageOnloadHandler = function ( target ) {
 		loaded++;
+		target.addClass('loaded');
 		if ( loaded == totalImages ) {
 			callback();
 			// fade in
@@ -50,7 +51,6 @@ STUDIOHANSRAJ.Listing = (function(STUDIOHANSRAJ, window, undefined){
 			if ( !$(this).hasClass( 'loaded' ) ) {
 				// load via data-src attribute
 				// $(this).attr('src', $(this).data('src') );
-				$(this).addClass('loaded');
 				// load handlers
 				if ( $(this)[0].complete ) {
 					_imageOnloadHandler( $(this) );

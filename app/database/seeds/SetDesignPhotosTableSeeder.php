@@ -63,6 +63,7 @@ class SetDesignPhotosTableSeeder extends Seeder {
 					'path' => 'images/26Club-Monaco-Collection/Club-Monaco-Collection-9.jpg',
 					'setdesign_id' => '26'
 			),
+
 			array(
 					'title' => '',
 					'slug' => '',
@@ -87,6 +88,7 @@ class SetDesignPhotosTableSeeder extends Seeder {
 					'path' => 'images/25Barneys/barneys-4.jpg',
 					'setdesign_id' => '25'
 			),
+			
 			array(
 					'title' => '',
 					'slug' => '',
@@ -145,12 +147,6 @@ class SetDesignPhotosTableSeeder extends Seeder {
 					'title' => '',
 					'slug' => '',
 					'path' => 'images/23CREEM-MAGAZINE/05.jpg',
-					'setdesign_id' => '23'
-			),
-			array(
-					'title' => '',
-					'slug' => '',
-					'path' => 'images/23CREEM-MAGAZINE/06.jpg',
 					'setdesign_id' => '23'
 			),
 			array(
@@ -360,13 +356,13 @@ class SetDesignPhotosTableSeeder extends Seeder {
 			array(
 					'title' => '',
 					'slug' => '',
-					'path' => 'images/16Burdzinski_jimon/burdzinskijimon-01.jpg',
+					'path' => 'images/16Burdzinski_jimon/burdzinskijimon-02.jpg',
 					'setdesign_id' => '16'
 			),
 			array(
 					'title' => '',
 					'slug' => '',
-					'path' => 'images/16Burdzinski_jimon/burdzinskijimon-02.jpg',
+					'path' => 'images/16Burdzinski_jimon/burdzinskijimon-01.jpg',
 					'setdesign_id' => '16'
 			),
 			array(

@@ -95,7 +95,7 @@ class SetDesignTableSeeder extends Seeder {
 					'client_url' => '',
 					'director' => '',
 					'director_url' => '',
-					'photographer' => 'Brendan Burdzinsky  ',
+					'photographer' => 'Brendan Burdzinsky',
 					'photographer_url' => 'http://www.brendanburdzinski.com/',
 					'stylist' => '',
 					'stylist_url' => '',
@@ -269,7 +269,7 @@ class SetDesignTableSeeder extends Seeder {
 					'cover_photo' => 'images/13Vogue_Australia/vogueaustralia-thumbnail.jpg'
 			),
 			array(
-					'slug' => 'Club-Monaco',
+					'slug' => 'Club-Monaco-September',
 					'name' => 'Club Monaco',
 					'client' => 'Club Monaco',
 					'client_url' => 'http://www.clubmonaco.com/',
@@ -309,14 +309,14 @@ class SetDesignTableSeeder extends Seeder {
 					'cover_photo' => 'images/15interview_magazine_Bill_Hader/interview-bilhader-01.jpg'
 			),
 			array(
-					'slug' => 'Burdzinski_jimon',
-					'name' => 'Burdzinski Jimon',
-					'client' => 'Burdzinski Jimon',
+					'slug' => 'Jimon-Magazine',
+					'name' => 'Jimon Magazine',
+					'client' => 'Jimon Magazine',
 					'client_url' => '',
 					'director' => '',
 					'director_url' => '',
-					'photographer' => '',
-					'photographer_url' => '',
+					'photographer' => 'Brendan Burdzinsky',
+					'photographer_url' => 'http://www.brendanburdzinski.com/',
 					'stylist' => '',
 					'stylist_url' => '',
 					'talent' => '',
@@ -471,11 +471,11 @@ class SetDesignTableSeeder extends Seeder {
 					'makeup_url' => '',
 					'hair' => '',
 					'hair_url' => '',
-					'cover_photo' => 'images/23CREEM-MAGAZINE/thumb.jpg'
+					'cover_photo' => 'images/23CREEM-MAGAZINE/01.jpg'
 			)
 			,
 			array(
-					'slug' => 'Club-Monaco',
+					'slug' => 'Club-Monaco-Party-Shop',
 					'name' => 'Club Monaco',
 					'client' => 'Club Monaco',
 					'client_url' => 'http://www.clubmonaco.com',

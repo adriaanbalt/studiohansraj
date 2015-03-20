@@ -258,13 +258,12 @@ b, strong {
 a {
   letter-spacing: 2px;
   color: #000;
-  font-weight: bold;
   font-size: 23px;
   text-decoration: none;
 }
 
 @media only screen and (min-width: 1024px) {
-  /* line 169, ../../sass/_fonts.scss */
+  /* line 168, ../../sass/_fonts.scss */
   h2 {
     font-size: 40px;
   }
@@ -361,33 +360,34 @@ section {
 
 /* line 1, ../../sass/_main.scss */
 #content {
-  background-color: #fff;
   min-height: 100%;
   position: relative;
   text-align: center;
+  background: transparent;
+  padding: 0 5%;
 }
-/* line 7, ../../sass/_main.scss */
+/* line 9, ../../sass/_main.scss */
 #content header {
   position: relative;
   width: 100%;
 }
 
-/* line 12, ../../sass/_main.scss */
+/* line 14, ../../sass/_main.scss */
 .loader-container {
   position: relative;
   height: 50px;
   display: none;
 }
-/* line 16, ../../sass/_main.scss */
+/* line 18, ../../sass/_main.scss */
 .loader-container.show {
   display: block;
 }
-/* line 18, ../../sass/_main.scss */
+/* line 20, ../../sass/_main.scss */
 .loader-container.show .loader {
   opacity: 1;
   filter: alpha(opacity=100);
 }
-/* line 22, ../../sass/_main.scss */
+/* line 24, ../../sass/_main.scss */
 .loader-container .loader {
   background: url("../images/icon-ajax-loader.gif");
   display: block;
@@ -404,6 +404,11 @@ section {
   -ms-transition: opacity 0.5s ease-in-out 0;
   -o-transition: opacity 0.5s ease-in-out 0;
   transition: opacity 0.5s ease-in-out 0;
+}
+
+/* line 37, ../../sass/_main.scss */
+body {
+  background: url("../images/backgrounds/psychadelic.jpg") repeat;
 }
 
 @font-face {
@@ -646,15 +651,19 @@ section {
   color: #fff;
 }
 
-/* line 1, ../../sass/_listing.scss */
+/* line 2, ../../sass/_listing.scss */
 #listing {
   padding: 0 0 5em 0;
 }
-/* line 3, ../../sass/_listing.scss */
+/* line 4, ../../sass/_listing.scss */
 #listing ul {
   padding: .15em;
 }
-/* line 9, ../../sass/_listing.scss */
+/* line 7, ../../sass/_listing.scss */
+#listing ul li {
+  margin: 8px;
+}
+/* line 11, ../../sass/_listing.scss */
 #listing ul li a {
   position: relative;
   display: block;
@@ -665,15 +674,24 @@ section {
   -o-transition: all 0.2s ease-in 0;
   transition: all 0.2s ease-in 0;
 }
-/* line 15, ../../sass/_listing.scss */
+/* line 17, ../../sass/_listing.scss */
 #listing ul li a:hover img {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  opacity: 0.8;
-  filter: alpha(opacity=80);
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+  -webkit-filter: brightness(1.3);
 }
-/* line 36, ../../sass/_listing.scss */
+/* line 44, ../../sass/_listing.scss */
+#listing ul li a:hover .vcontent {
+  display: none;
+  visibility: hidden;
+}
+/* line 49, ../../sass/_listing.scss */
 #listing ul li a img {
+  -webkit-transition: all 200 none 0;
+  -moz-transition: all 200 none 0;
+  -ms-transition: all 200 none 0;
+  -o-transition: all 200 none 0;
+  transition: all 200 none 0;
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition: opacity 1s ease-in-out 0;
@@ -685,22 +703,22 @@ section {
   z-index: 0;
   top: 0;
 }
-/* line 38, ../../sass/_listing.scss */
+/* line 52, ../../sass/_listing.scss */
 #listing ul li a img.hide {
   opacity: 0;
   filter: alpha(opacity=0);
 }
-/* line 41, ../../sass/_listing.scss */
+/* line 55, ../../sass/_listing.scss */
 #listing ul li a img.loaded {
   opacity: 1;
   filter: alpha(opacity=100);
 }
-/* line 51, ../../sass/_listing.scss */
+/* line 65, ../../sass/_listing.scss */
 #listing ul li a .valign {
   height: 100%;
   display: none;
 }
-/* line 55, ../../sass/_listing.scss */
+/* line 69, ../../sass/_listing.scss */
 #listing ul li a .vcontent {
   color: #FFF;
   font-weight: bold;
@@ -712,14 +730,14 @@ section {
   left: 0;
   width: 100%;
 }
-/* line 67, ../../sass/_listing.scss */
+/* line 81, ../../sass/_listing.scss */
 #listing ul li a:hover .vcontent {
   opacity: 0.5;
   filter: alpha(opacity=50);
 }
 
 /* Also, don't forget to add this: */
-/* line 80, ../../sass/_listing.scss */
+/* line 94, ../../sass/_listing.scss */
 [data-columns]::before {
   position: absolute;
   right: 9999em;
@@ -728,42 +746,58 @@ section {
 }
 
 /* Again, you’re free to use and define the classes: */
-/* line 88, ../../sass/_listing.scss */
+/* line 102, ../../sass/_listing.scss */
 .column {
   float: left;
 }
 
-/* line 89, ../../sass/_listing.scss */
+/* line 103, ../../sass/_listing.scss */
 .size-1of1 {
   width: 100%;
 }
 
-/* line 90, ../../sass/_listing.scss */
+/* line 104, ../../sass/_listing.scss */
 .size-1of2 {
   width: 50%;
 }
 
-/* line 91, ../../sass/_listing.scss */
+/* line 105, ../../sass/_listing.scss */
 .size-1of3 {
   width: 33.333%;
 }
 
+/* line 106, ../../sass/_listing.scss */
+.size-1of4 {
+  width: 25%;
+}
+
+/* line 107, ../../sass/_listing.scss */
+.size-1of5 {
+  width: 20%;
+}
+
 @media screen and (max-width: 480px) {
-  /* line 94, ../../sass/_listing.scss */
+  /* line 110, ../../sass/_listing.scss */
   #grid[data-columns]::before {
     content: '1 .column.size-1of1';
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
-  /* line 99, ../../sass/_listing.scss */
+  /* line 115, ../../sass/_listing.scss */
   #grid[data-columns]::before {
     content: '2 .column.size-1of2';
   }
 }
 @media screen and (min-width: 769px) {
-  /* line 105, ../../sass/_listing.scss */
+  /* line 121, ../../sass/_listing.scss */
   #grid[data-columns]::before {
     content: '3 .column.size-1of3';
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 127, ../../sass/_listing.scss */
+  #grid[data-columns]::before {
+    content: '4 .column.size-1of4';
   }
 }
 /* line 2, ../../sass/_details.scss */
@@ -780,6 +814,10 @@ section {
   display: inline-block;
 }
 /* line 12, ../../sass/_details.scss */
+#details header {
+  margin-top: 2em;
+}
+/* line 15, ../../sass/_details.scss */
 #details ul {
   -webkit-transition: opacity 1s ease-in-out 0;
   -moz-transition: opacity 1s ease-in-out 0;
@@ -787,29 +825,29 @@ section {
   -o-transition: opacity 1s ease-in-out 0;
   transition: opacity 1s ease-in-out 0;
 }
-/* line 13, ../../sass/_details.scss */
+/* line 16, ../../sass/_details.scss */
 #details ul.hide {
   opacity: 0;
   filter: alpha(opacity=0);
 }
-/* line 16, ../../sass/_details.scss */
+/* line 19, ../../sass/_details.scss */
 #details ul.show {
   opacity: 1;
   filter: alpha(opacity=100);
 }
-/* line 20, ../../sass/_details.scss */
+/* line 23, ../../sass/_details.scss */
 #details ul li {
   margin: 0 0 0 10px;
   float: left;
 }
 
 @media screen and (max-width: 640px) {
-  /* line 35, ../../sass/_details.scss */
+  /* line 38, ../../sass/_details.scss */
   #details ul li {
     float: none;
     margin: 10px;
   }
-  /* line 44, ../../sass/_details.scss */
+  /* line 47, ../../sass/_details.scss */
   #details .information p {
     margin-bottom: 1em;
   }

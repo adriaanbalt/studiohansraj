@@ -4,11 +4,11 @@
 		"description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
 		"keywords":"set design, production design, fashion, architecture, fabrication",
 		"styles":[
-			"assets/css/screen.css",
-			"assets/css/selectize.bootstrap3.css"
+			"../assets/css/screen.css",
+			"../assets/css/selectize.bootstrap3.css"
 		],
 		"scripts":[
-			"assets/js/libs/modernizr-2.6.2-respond-1.1.0.min.js"
+			"../assets/js/libs/modernizr-2.6.2-respond-1.1.0.min.js"
 		],
 		"social":{
 			"facebook":{
@@ -35,50 +35,45 @@
 	"foot":{
 		"scripts":[
 			"//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js",
-			"assets/js/libs/salvattore.min.js",
-			"assets/js/libs/selectize.js",
-			"assets/js/libs/pubSub.js",
-			"assets/js/libs/rwdResize.js",
-			"assets/js/studiohansraj.js",
-			"assets/js/studiohansraj.intro.js",
-			"assets/js/studiohansraj.listing.js",
-			"assets/js/studiohansraj.details.js",
-			"assets/js/studiohansraj.nav.js"
+			"../assets/js/libs/salvattore.min.js",
+			"../assets/js/libs/selectize.js",
+			"../assets/js/libs/pubSub.js",
+			"../assets/js/libs/rwdResize.js",
+			"../assets/js/studiohansraj.js",
+			"../assets/js/studiohansraj.intro.js",
+			"../assets/js/studiohansraj.listing.js",
+			"../assets/js/studiohansraj.details.js",
+			"../assets/js/studiohansraj.nav.js"
 		]
 	},
 
 	"content":{
-		"slug" : "i-D-Magazine-1",
+		"slug" : "i-D-Magazine-2",
 		"name" : "i-D Magazine",
 		"client" : "i-D Magazine",
 		"client_url" : "http://i-d.vice.com/en_gb/",
 		"director" : "",
 		"director_url" : "",
 		"photographer" : "Jai Odell",
-		"photographer_url" : "http://jaiodell.com",
-		"stylist" : "Stella Greenspan",
-		"stylist_url" : "http://models.com/people/stella-greenspan",
-		"talent" : "Manuela Frey",
-		"talent_agency" : "",
-		"talent_url" : "http://models.com/models/manuela-frey",
-		"makeup" : "Marla Belt",
-		"makeup_url" : "http://www.streeters.com/artists/makeup-artists/marla-belt/portfolio",
-		"hair" : "Kayla MiChele",
-		"hair_url" : "http://kaylamichele.com/",
-		"cover_photo" : "assets/images/09i-D_Magazine_Andre_Walker/id-01.jpg",
+		"photographer_url" : "http://www.jaiodell.com",
+		"stylist" : "Katelyn Gray",
+		"stylist_url" : "http://instagram.com/katelynjgray",
+		"talent" : "Kremi",
+		"talent_agency" : "Supreme",
+		"talent_url" : "http://www.suprememanagement.com/Models/2512/KREMI",
+		"makeup" : "Kanako Takase",
+		"makeup_url" : "http://models.com/people/kanako-takase",
+		"hair" : "Ryan Mitchell",
+		"hair_url" : "",
+		"cover_photo" : "../assets/images/11i-D_Magazine_Editorial/id-01.jpg",
 		"gallery":[
-			{
-				"path" : "assets/images/09i-D_Magazine_Andre_Walker/id-01.jpg",
-				"setdesign_id" : "9"
-			},
-			{
-				"path" : "assets/images/09i-D_Magazine_Andre_Walker/id-02.jpg",
-				"setdesign_id" : "9"
-			},
-			{
-				"path" : "assets/images/09i-D_Magazine_Andre_Walker/id-03.jpg",
-				"setdesign_id" : "9"
-			}
+			"../assets/images/11i-D_Magazine_Editorial/id-01.jpg",
+			"../assets/images/11i-D_Magazine_Editorial/id-02.jpg",
+			"../assets/images/11i-D_Magazine_Editorial/id-03.jpg",
+			"../assets/images/11i-D_Magazine_Editorial/id-04.jpg",
+			"../assets/images/11i-D_Magazine_Editorial/id-05.jpg",
+			"../assets/images/11i-D_Magazine_Editorial/id-06.jpg",
+			"../assets/images/11i-D_Magazine_Editorial/id-07.jpg"
 		]
 	}
 }

@@ -4,11 +4,11 @@
 		"description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
 		"keywords":"set design, production design, fashion, architecture, fabrication",
 		"styles":[
-			"assets/css/screen.css",
-			"assets/css/selectize.bootstrap3.css"
+			"../assets/css/screen.css",
+			"../assets/css/selectize.bootstrap3.css"
 		],
 		"scripts":[
-			"assets/js/libs/modernizr-2.6.2-respond-1.1.0.min.js"
+			"../assets/js/libs/modernizr-2.6.2-respond-1.1.0.min.js"
 		],
 		"social":{
 			"facebook":{
@@ -35,15 +35,15 @@
 	"foot":{
 		"scripts":[
 			"//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js",
-			"assets/js/libs/salvattore.min.js",
-			"assets/js/libs/selectize.js",
-			"assets/js/libs/pubSub.js",
-			"assets/js/libs/rwdResize.js",
-			"assets/js/studiohansraj.js",
-			"assets/js/studiohansraj.intro.js",
-			"assets/js/studiohansraj.listing.js",
-			"assets/js/studiohansraj.details.js",
-			"assets/js/studiohansraj.nav.js"
+			"../assets/js/libs/salvattore.min.js",
+			"../assets/js/libs/selectize.js",
+			"../assets/js/libs/pubSub.js",
+			"../assets/js/libs/rwdResize.js",
+			"../assets/js/studiohansraj.js",
+			"../assets/js/studiohansraj.intro.js",
+			"../assets/js/studiohansraj.listing.js",
+			"../assets/js/studiohansraj.details.js",
+			"../assets/js/studiohansraj.nav.js"
 		]
 	},
 
@@ -65,44 +65,17 @@
 		"makeup_url" : "http://www.georgisandev.com/index2.php#/home/",
 		"hair" : "Kayla Michele",
 		"hair_url" : "http://kaylamichele.com/",
-		"cover_photo" : "assets/images/06Marfa_Journal/marfa-02.jpg",
+		"cover_photo" : "../assets/images/06Marfa_Journal/marfa-02.jpg",
 		"gallery":[
-			{
-				"path" : "assets/images/06Marfa_Journal/marfa-02.jpg",
-				"setdesign_id" : "6"
-			},
-			{
-				"path" : "assets/images/06Marfa_Journal/marfa-01.jpg",
-				"setdesign_id" : "6"
-			},
-			{
-				"path" : "assets/images/06Marfa_Journal/marfa-03.jpg",
-				"setdesign_id" : "6"
-			},
-			{
-				"path" : "assets/images/06Marfa_Journal/marfa-04.jpg",
-				"setdesign_id" : "6"
-			},
-			{
-				"path" : "assets/images/06Marfa_Journal/marfa-05.jpg",
-				"setdesign_id" : "6"
-			},
-			{
-				"path" : "assets/images/06Marfa_Journal/marfa-06.jpg",
-				"setdesign_id" : "6"
-			},
-			{
-				"path" : "assets/images/06Marfa_Journal/marfa-07.jpg",
-				"setdesign_id" : "6"
-			},
-			{
-				"path" : "assets/images/06Marfa_Journal/marfa-08.jpg",
-				"setdesign_id" : "6"
-			},
-			{
-				"path" : "assets/images/06Marfa_Journal/marfa-09.jpg",
-				"setdesign_id" : "6"
-			}
+			"../assets/images/06Marfa_Journal/marfa-02.jpg",
+			"../assets/images/06Marfa_Journal/marfa-01.jpg",
+			"../assets/images/06Marfa_Journal/marfa-03.jpg",
+			"../assets/images/06Marfa_Journal/marfa-04.jpg",
+			"../assets/images/06Marfa_Journal/marfa-05.jpg",
+			"../assets/images/06Marfa_Journal/marfa-06.jpg",
+			"../assets/images/06Marfa_Journal/marfa-07.jpg",
+			"../assets/images/06Marfa_Journal/marfa-08.jpg",
+			"../assets/images/06Marfa_Journal/marfa-09.jpg"
 		]
 	}
 }

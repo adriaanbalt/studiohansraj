@@ -48,9 +48,9 @@
 	},
 
 	"content":{
-		"about":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion. For more information, to reach out regarding employment opportunities, or just to say hello, feel free to get in touch.",
+		"about":"<p>Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.</p><p>For more information, to reach out regarding employment opportunities, or just to say hello, feel free to get in touch.</p>",
 		"image":"",
-		"address":"",
+		"address":"Brooklyn Navy Yard</br>63 Flushing Ave #608</br>Brooklyn, NY 11205",
 		"google":"https://goo.gl/maps/LFrTJ"
 	}
 }

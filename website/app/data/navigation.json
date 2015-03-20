@@ -1,10 +1,12 @@
 [
 	{
 		"title": "Set Design",
-		"slug" : "setdesign"
+		"id": "setdesign",
+		"slug" : ""
 	},
 	{
 		"title": "Contact",
+		"id": "contact",
 		"slug" : "contact"
 	}
 ]

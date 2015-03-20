@@ -47,12 +47,14 @@
 		]
 	},
 
+	"path":"/",
+
 	"content":{
 		"projects":[
 			{
-				"slug" : "Club-Monaco-Collection",
-				"name" : "Club Monaco",
-				"cover_photo" : "assets/images/26Club-Monaco-Collection/thumb.jpg"
+				"slug" : "Grey-Magazine",
+				"name" : "Grey Magazine",
+				"cover_photo" : "assets/images/22Grey-Magazine/thumb.jpg"
 			},
 			{
 				"slug" : "barneys",
@@ -60,19 +62,19 @@
 				"cover_photo" : "assets/images/25Barneys/thumb.jpg"
 			},
 			{
-				"slug" : "Club-Monaco-Party-Shop",
-				"name" : "Club Monaco",
-				"cover_photo" : "assets/images/24Club-Monaco-Party-Shop/thumb.jpg"
-			},
-			{
 				"slug" : "Creem-Magazine",
 				"name" : "Creem Magazine",
 				"cover_photo" : "assets/images/23CREEM-MAGAZINE/01.jpg"
 			},
 			{
-				"slug" : "Grey-Magazine",
-				"name" : "Grey Magazine",
-				"cover_photo" : "assets/images/22Grey-Magazine/thumb.jpg"
+				"slug" : "Club-Monaco-Party-Shop",
+				"name" : "Club Monaco",
+				"cover_photo" : "assets/images/24Club-Monaco-Party-Shop/thumb.jpg"
+			},
+			{
+				"slug" : "Club-Monaco-Collection",
+				"name" : "Club Monaco",
+				"cover_photo" : "assets/images/26Club-Monaco-Collection/thumb.jpg"
 			},
 			{
 				"slug" : "Jonathan-Cohen-FW-2014",
@@ -80,12 +82,12 @@
 				"cover_photo" : "assets/images/21Jonathan-Cohen-FW-2014/thumb.jpg"
 			},
 			{
-				"slug" : "The-Last-Magazine-2",
+				"slug" : "Last-Magazine-2",
 				"name" : "The Last Magazine",
 				"cover_photo" : "assets/images/20The-Last-Mag/last-magazine-01.jpg"
 			},
 			{
-				"slug" : "Jake-Jones-FW",
+				"slug" : "Jake-Jones-FW-2014",
 				"name" : "Jake Jones Fall Winter",
 				"cover_photo" : "assets/images/19Jake_Jones_FW/jakejones-fw-02.jpg"
 			},
@@ -140,7 +142,7 @@
 				"cover_photo" : "assets/images/09i-D_Magazine_Andre_Walker/id-01.jpg"
 			},
 			{
-				"slug" : "The-Last-Magazine",
+				"slug" : "Last-Magazine-1",
 				"name" : "The Last Magazine",
 				"cover_photo" : "assets/images/08The_Last_Magazine_Noir/lastmagazinenoir-08.jpg"
 			},
@@ -168,11 +170,6 @@
 				"slug" : "Man-of-the-World",
 				"name" : "Man of The World",
 				"cover_photo" : "assets/images/03Mens_World_Web/Mens-World-01.jpg"
-			},
-			{
-				"slug" : "Wolf-Magazine",
-				"name" : "Wolf Magazine",
-				"cover_photo" : "assets/images/02Wolf_Magazine/wolfmagazine-thumbnail.jpg"
 			},
 			{
 				"slug" : "Urban-Zen",

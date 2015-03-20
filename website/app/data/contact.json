@@ -33,6 +33,7 @@
 	},
 
 	"foot":{
+		"google-analytics":"UA-54477259-1",
 		"scripts":[
 			"//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js",
 			"assets/js/libs/salvattore.min.js",

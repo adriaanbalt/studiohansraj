@@ -1,0 +1,14 @@
+<div id='navigation-mobile' class='{{ status }}'>
+	<a class='menu black' href='javascript:void(0);'></a>
+	<a class='menu white' href='javascript:void(0);'></a>
+	<div class='container'>
+		<nav>
+		{{#each navigation }}
+			<a href="/{{ slug }}" class=''>
+				<div class='valign'></div>
+				<div class='item vcontent'>{{ title }}</div>
+			</a>
+		{{/each}}
+		</nav>
+	</div>
+</div>

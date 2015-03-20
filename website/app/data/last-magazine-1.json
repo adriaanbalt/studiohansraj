@@ -1,0 +1,116 @@
+{
+	"head":{
+		"title":"Studio Hansraj",
+		"description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+		"keywords":"set design, production design, fashion, architecture, fabrication",
+		"styles":[
+			"assets/css/screen.css",
+			"assets/css/selectize.bootstrap3.css"
+		],
+		"scripts":[
+			"assets/js/libs/modernizr-2.6.2-respond-1.1.0.min.js"
+		],
+		"social":{
+			"facebook":{
+				"title":"Studio Hansraj",
+				"description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+				"image":"",
+				"url":"http://www.studiohansraj.com"
+			},
+			"twitter":{
+				"title":"Studio Hansraj",
+				"description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+				"image":"",
+				"creator":"@StudioHansraj",
+				"site":"http://www.studiohansraj.com"
+			},
+			"google":{
+				"title":"Studio Hansraj",
+				"description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+				"image":""
+			}
+		}
+	},
+
+	"foot":{
+		"scripts":[
+			"//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js",
+			"assets/js/libs/salvattore.min.js",
+			"assets/js/libs/selectize.js",
+			"assets/js/libs/pubSub.js",
+			"assets/js/libs/rwdResize.js",
+			"assets/js/studiohansraj.js",
+			"assets/js/studiohansraj.intro.js",
+			"assets/js/studiohansraj.listing.js",
+			"assets/js/studiohansraj.details.js",
+			"assets/js/studiohansraj.nav.js"
+		]
+	},
+
+	"content":{
+		"slug" : "The-Last-Magazine",
+		"name" : "The Last Magazine",
+		"client" : "The Last Magazine",
+		"client_url" : "http://thelast-magazine.com/",
+		"director" : "",
+		"director_url" : "",
+		"photographer" : "Jai Odell",
+		"photographer_url" : "http://www.jaiodell.com",
+		"stylist" : "Zara Zachrisson",
+		"stylist_url" : "http://cargocollective.com/zarazachrisson",
+		"talent" : "Naty Chabanenko",
+		"talent_agency" : "",
+		"talent_url" : "http://models.com/models/Naty-Chabanenko",
+		"makeup" : "Susie Sobol",
+		"makeup_url" : "http://www.susiesobol.com/",
+		"hair" : "Kayla MiChele",
+		"hair_url" : "http://kaylamichele.com/",
+		"cover_photo" : "assets/images/08The_Last_Magazine_Noir/lastmagazinenoir-08.jpg",
+		"gallery":[
+			{
+				"path" : "assets/images/08The_Last_Magazine_Noir/lastmagazinenoir-08.jpg",
+				"setdesign_id" : "8"
+			},
+			{
+				"path" : "assets/images/08The_Last_Magazine_Noir/lastmagazinenoir-02.jpg",
+				"setdesign_id" : "8"
+			},
+			{
+				"path" : "assets/images/08The_Last_Magazine_Noir/lastmagazinenoir-03.jpg",
+				"setdesign_id" : "8"
+			},
+			{
+				"path" : "assets/images/08The_Last_Magazine_Noir/lastmagazinenoir-04.jpg",
+				"setdesign_id" : "8"
+			},
+			{
+				"path" : "assets/images/08The_Last_Magazine_Noir/lastmagazinenoir-05.jpg",
+				"setdesign_id" : "8"
+			},
+			{
+				"path" : "assets/images/08The_Last_Magazine_Noir/lastmagazinenoir-06.jpg",
+				"setdesign_id" : "8"
+			},
+			{
+				"path" : "assets/images/08The_Last_Magazine_Noir/lastmagazinenoir-07.jpg",
+				"setdesign_id" : "8"
+			},
+			{
+				"path" : "assets/images/08The_Last_Magazine_Noir/lastmagazinenoir-01.jpg",
+				"setdesign_id" : "8"
+			},
+			{
+				"path" : "assets/images/08The_Last_Magazine_Noir/lastmagazinenoir-09.jpg",
+				"setdesign_id" : "8"
+			},
+			{
+				"path" : "assets/images/08The_Last_Magazine_Noir/lastmagazinenoir-10.jpg",
+				"setdesign_id" : "8"
+			},
+			{
+				"path" : "assets/images/08The_Last_Magazine_Noir/lastmagazinenoir-11.jpg",
+				"setdesign_id" : "8"
+			}
+		]
+	}
+}

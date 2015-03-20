@@ -1,0 +1,96 @@
+{
+	"head":{
+		"title":"Studio Hansraj",
+		"description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+		"keywords":"set design, production design, fashion, architecture, fabrication",
+		"styles":[
+			"assets/css/screen.css",
+			"assets/css/selectize.bootstrap3.css"
+		],
+		"scripts":[
+			"assets/js/libs/modernizr-2.6.2-respond-1.1.0.min.js"
+		],
+		"social":{
+			"facebook":{
+				"title":"Studio Hansraj",
+				"description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+				"image":"",
+				"url":"http://www.studiohansraj.com"
+			},
+			"twitter":{
+				"title":"Studio Hansraj",
+				"description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+				"image":"",
+				"creator":"@StudioHansraj",
+				"site":"http://www.studiohansraj.com"
+			},
+			"google":{
+				"title":"Studio Hansraj",
+				"description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+				"image":""
+			}
+		}
+	},
+
+	"foot":{
+		"scripts":[
+			"//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js",
+			"assets/js/libs/salvattore.min.js",
+			"assets/js/libs/selectize.js",
+			"assets/js/libs/pubSub.js",
+			"assets/js/libs/rwdResize.js",
+			"assets/js/studiohansraj.js",
+			"assets/js/studiohansraj.intro.js",
+			"assets/js/studiohansraj.listing.js",
+			"assets/js/studiohansraj.details.js",
+			"assets/js/studiohansraj.nav.js"
+		]
+	},
+
+	"content":{
+		"slug" : "Urban-Zen",
+		"name" : "Urban Zen",
+		"client" : "Urban Zen",
+		"client_url" : "http://www.urbanzen.com/",
+		"director" : "",
+		"director_url" : "",
+		"photographer" : "Adam Franzino",
+		"photographer_url" : "http://www.adamfranzino.com/",
+		"stylist" : "Lisa Keshtkar",
+		"stylist_url" : "http://www.linkedin.com/pub/lisa-keshtkar/11/227/9a9",
+		"talent" : "Ieva and Aida Aniulyte",
+		"talent_agency" : "",
+		"talent_url" : "",
+		"makeup" : "Tracey Alfajora",
+		"makeup_url" : "http://art-dept.com/makeup/tracy-alfajora/editorial-i",
+		"hair" : "Martin Christopher Harper",
+		"hair_url" : "http://martin-christopherharper.com/",
+		"cover_photo" : "assets/images/01Urban_Zen_Finals/urbanzen-01.jpg",
+		"gallery":[
+			{
+				"path" : "assets/images/01Urban_Zen_Finals/urbanzen-01.jpg",
+				"setdesign_id" : "1"
+			},
+			{
+				"path" : "assets/images/01Urban_Zen_Finals/urbanzen-02.jpg",
+				"setdesign_id" : "1"
+			},
+			{
+				"path" : "assets/images/01Urban_Zen_Finals/urbanzen-03.jpg",
+				"setdesign_id" : "1"
+			},
+			{
+				"path" : "assets/images/01Urban_Zen_Finals/urbanzen-04.jpg",
+				"setdesign_id" : "1"
+			},
+			{
+				"path" : "assets/images/01Urban_Zen_Finals/urbanzen-05.jpg",
+				"setdesign_id" : "1"
+			},
+			{
+				"path" : "assets/images/01Urban_Zen_Finals/urbanzen-06.jpg",
+				"setdesign_id" : "1"
+			}
+		]
+	}
+}

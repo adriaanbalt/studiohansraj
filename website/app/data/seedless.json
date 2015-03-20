@@ -1,0 +1,104 @@
+{
+	"head":{
+		"title":"Studio Hansraj",
+		"description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+		"keywords":"set design, production design, fashion, architecture, fabrication",
+		"styles":[
+			"assets/css/screen.css",
+			"assets/css/selectize.bootstrap3.css"
+		],
+		"scripts":[
+			"assets/js/libs/modernizr-2.6.2-respond-1.1.0.min.js"
+		],
+		"social":{
+			"facebook":{
+				"title":"Studio Hansraj",
+				"description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+				"image":"",
+				"url":"http://www.studiohansraj.com"
+			},
+			"twitter":{
+				"title":"Studio Hansraj",
+				"description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+				"image":"",
+				"creator":"@StudioHansraj",
+				"site":"http://www.studiohansraj.com"
+			},
+			"google":{
+				"title":"Studio Hansraj",
+				"description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+				"image":""
+			}
+		}
+	},
+
+	"foot":{
+		"scripts":[
+			"//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js",
+			"assets/js/libs/salvattore.min.js",
+			"assets/js/libs/selectize.js",
+			"assets/js/libs/pubSub.js",
+			"assets/js/libs/rwdResize.js",
+			"assets/js/studiohansraj.js",
+			"assets/js/studiohansraj.intro.js",
+			"assets/js/studiohansraj.listing.js",
+			"assets/js/studiohansraj.details.js",
+			"assets/js/studiohansraj.nav.js"
+		]
+	},
+
+	"content":{
+		"slug" : "Seedless",
+		"name" : "Seedless",
+		"client" : "",
+		"client_url" : "",
+		"director" : "",
+		"director_url" : "",
+		"photographer" : "Brendan Burdzinsky",
+		"photographer_url" : "http://www.brendanburdzinski.com/",
+		"stylist" : "",
+		"stylist_url" : "",
+		"talent" : "",
+		"talent_agency" : "",
+		"talent_url" : "",
+		"makeup" : "",
+		"makeup_url" : "",
+		"hair" : "",
+		"hair_url" : "",
+		"cover_photo" : "assets/images/05Seedless/seedless-thumbnail.jpg",
+		"gallery":[
+			{
+				"path" : "assets/images/05Seedless/seedless-01.jpg",
+				"setdesign_id" : "5"
+			},
+			{
+				"path" : "assets/images/05Seedless/seedless-02.jpg",
+				"setdesign_id" : "5"
+			},
+			{
+				"path" : "assets/images/05Seedless/seedless-03.jpg",
+				"setdesign_id" : "5"
+			},
+			{
+				"path" : "assets/images/05Seedless/seedless-04.jpg",
+				"setdesign_id" : "5"
+			},
+			{
+				"path" : "assets/images/05Seedless/seedless-05.jpg",
+				"setdesign_id" : "5"
+			},
+			{
+				"path" : "assets/images/05Seedless/seedless-06.jpg",
+				"setdesign_id" : "5"
+			},
+			{
+				"path" : "assets/images/05Seedless/seedless-07.jpg",
+				"setdesign_id" : "5"
+			},
+			{
+				"path" : "assets/images/05Seedless/seedless-08.jpg",
+				"setdesign_id" : "5"
+			}
+		]
+	}
+}

@@ -1,0 +1,10 @@
+<div id='navigation' class='{{ status }}'>
+	<nav>
+		{{#each navigation }}
+		<a href="/{{ slug }}" class="{{ slug }}">
+			<div class="out icon icon-{{ slug }}"></div>
+			<div class="over icon icon-{{ slug }}-over"></div>
+		</a>
+		{{/each}}
+	</nav>
+</div>

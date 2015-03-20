@@ -6,13 +6,11 @@
 		{{> logo }}
 		{{> navigation }}
 	</header>
-	<div class='loader-container show'>
-		<div class='loader'></div>
-	</div>
 	<div id='contact'>
 		<div>
-			<p>{{ contact.content.name }}</p>
-			<p>{{ contact.content.address }}</p>
+			<p>{{{ contact.content.about }}}</p>
+			<p>{{{ contact.content.name }}}</p>
+			<p>{{{ contact.content.address }}}</p>
 			<p>
 				<a href='tel:{{ contact.content.telephone }}'>{{ contact.content.telephone }}</a>
 			</p>

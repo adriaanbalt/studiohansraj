@@ -9,6 +9,9 @@
 			display: inline-block;
 		}
 	}
+	header {
+		margin-top: 2em;
+	}
 	ul {
 		&.hide {
 			@include opacity(0);

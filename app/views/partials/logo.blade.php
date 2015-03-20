@@ -1,1 +1,1 @@
-<img class='logo' src="{{ URL::asset( 'images/studiohansraj.svg' ) }}"/>
+<img class='logo' src="{{ URL::asset( 'images/studiohansraj-over.svg' ) }}"/>

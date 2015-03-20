@@ -3,6 +3,7 @@
 	padding: 0 0 5em 0;
 	ul {
 		padding: .15em;
+		list-style: none;
 		// padding: .5%;
 		li {
 			// display: inline-block;
@@ -117,7 +118,7 @@
 	}
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 769px) and (max-width: 1023px) {
 	#grid[data-columns]::before {
 		content: '3 .column.size-1of3';
 	}

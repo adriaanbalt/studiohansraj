@@ -7,6 +7,13 @@
 		p {
 			margin: 0 .5em;
 			display: inline-block;
+			span {
+				font-size: 23px;
+				letter-spacing: 2px;
+			}
+			a{
+				border-bottom: 1px solid #000;
+			}
 		}
 	}
 	header {
@@ -20,6 +27,7 @@
 			@include opacity(1);
 		}
 		@include transition( opacity, 1s, ease-in-out );
+		list-style: none;
 		li {
 			margin: 0 0 0 10px;
 			float: left;

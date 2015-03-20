@@ -49,13 +49,13 @@ class SetDesignTableSeeder extends Seeder {
 					'cover_photo' => 'images/02Wolf_Magazine/wolfmagazine-thumbnail.jpg'
 			),
 			array(
-					'slug' => 'Mens-World',
-					'name' => 'Mens World',
+					'slug' => 'Man-of-the-World',
+					'name' => 'Man of The World',
 					'client' => '',
 					'client_url' => '',
 					'director' => '',
 					'director_url' => '',
-					'photographer' => 'Alex Waltl ',
+					'photographer' => 'Alex Waltl',
 					'photographer_url' => '',
 					'stylist' => 'Edward Lorenz',
 					'stylist_url' => '',
@@ -326,7 +326,7 @@ class SetDesignTableSeeder extends Seeder {
 					'makeup_url' => '',
 					'hair' => '',
 					'hair_url' => '',
-					'cover_photo' => 'images/16Burdzinski_jimon/burdzinskijimon-01.jpg'
+					'cover_photo' => 'images/16Burdzinski_jimon/burdzinskijimon-02.jpg'
 			),
 			array(
 					'slug' => 'AF-Personal',

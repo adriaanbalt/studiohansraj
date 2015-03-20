@@ -119,6 +119,7 @@ class SetDesignPhotosTableSeeder extends Seeder {
 					'path' => 'images/24Club-Monaco-Party-Shop/Club-Monaco-Party-Shop-5.jpg',
 					'setdesign_id' => '24'
 			),
+
 			array(
 					'title' => '',
 					'slug' => '',
@@ -149,6 +150,7 @@ class SetDesignPhotosTableSeeder extends Seeder {
 					'path' => 'images/23CREEM-MAGAZINE/05.jpg',
 					'setdesign_id' => '23'
 			),
+
 			array(
 					'title' => '',
 					'slug' => '',

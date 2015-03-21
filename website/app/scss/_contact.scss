@@ -1,6 +1,14 @@
 #contact {
-	margin: 9em 0;
-	div {
+	margin: 9em auto;
+	width: 55%;
+	background: rgba(255,255,255,.5);
+	// border: 1px solid #fff;
+	padding: 1em;
+	p {
 		margin: 1em 0;
+	}
+	> div {
+		margin: 0 0 1em 0;
+		padding: 0 0 1em 0;
 	}
 }

@@ -779,11 +779,19 @@ body {
 
 /* line 1, ../../../website/app/scss/_contact.scss */
 #contact {
-  margin: 9em 0;
+  margin: 9em auto;
+  width: 55%;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 1em;
 }
-/* line 3, ../../../website/app/scss/_contact.scss */
-#contact div {
+/* line 7, ../../../website/app/scss/_contact.scss */
+#contact p {
   margin: 1em 0;
+}
+/* line 10, ../../../website/app/scss/_contact.scss */
+#contact > div {
+  margin: 0 0 1em 0;
+  padding: 0 0 1em 0;
 }
 
 /* line 1, ../../../website/app/scss/_definition.scss */

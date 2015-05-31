@@ -7,14 +7,32 @@
 		{{> navigation }}
 	</header>
 	<div id='contact'>
-		<div>{{{ contact.content.about }}}</div>
-		<p>{{{ contact.content.address }}}</p>
-		<p>
-			<a href='tel:{{ contact.content.telephone }}'>{{ contact.content.telephone }}</a>
-		</p>
-		<p>
-			<a href='mailto:{{ contact.content.email }}'>{{ contact.content.email }}</a>
-		</p>
+		<div class='container'>
+			<img src="{{contact.content.image }}">
+		</div>
+		<div class="container">
+			<div>{{{ contact.content.about }}}</div>
+			<p>{{{ contact.content.address }}}</p>
+			<p>
+				<a href='tel:{{ contact.content.telephone }}'>{{ contact.content.telephone }}</a>
+			</p>
+			<p class="email">
+				<a href='mailto:{{ contact.content.email }}'>{{ contact.content.email }}</a>
+			</p>
+		</div>
+
+		<div class="container">
+			{{#each contact.content.client-list}}
+			<h2>{{ title }}</h2>
+			<ul>
+				{{#each list}}
+				<li>
+					<p>{{this}}</p>
+				</li>
+				{{/each}}
+			</ul>
+			{{/each}}
+		</div>
 	</div>
 	{{> footer }}
 </div>

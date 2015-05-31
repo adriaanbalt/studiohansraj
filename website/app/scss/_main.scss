@@ -24,14 +24,14 @@
 	.loader {
 		background: url('../images/icon-ajax-loader.gif');
 		display: block;
-		width:36px;
-		height:36px;
+		width:24px;
+		height:24px;
 		position: absolute;
 		z-index: 100;
 		left: 50%;
 		margin-left: -17px;
 		@include opacity(0);
-		@include transition( opacity, .5s, ease-in-out );
+		@include transition( opacity .5s ease-in-out );
 	}
 }
 body {

@@ -1,11 +1,25 @@
 #contact {
-	margin: 9em auto;
-	width: 55%;
-	background: rgba(255,255,255,.5);
+	margin: 5em auto;
+	width: 65%;
 	// border: 1px solid #fff;
-	padding: 1em;
+	
+	.container {
+		padding: 1em;	
+		background: rgba(255,255,255,.5);
+		margin-bottom: 1em;
+	}
+	img {
+			width: 100%;
+		}
 	p {
 		margin: 1em 0;
+	}
+	.email {
+		font-weight: bold;
+  	margin: 2em;
+  	a {
+  		font-size: 24px;
+  	}
 	}
 	> div {
 		margin: 0 0 1em 0;

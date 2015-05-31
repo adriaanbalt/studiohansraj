@@ -25,6 +25,20 @@ $vendors: webkit, moz, ms, o;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$from}', endColorstr='#{$to}',GradientType=0 ); /* IE6-9 */
 }
 
+// aspectratio
+@mixin aspectratio($width, $height) {
+	$padding: percentage($height / $width);
+    position: relative;
+    &:before {
+        content: "";
+        display: block;
+        padding-top: $padding !important;
+        z-index: -999999;
+        position: relative;
+    }
+}
+
+
 // Opacity
 // ==========================================================================
 @mixin opacity($opacity) {
@@ -79,12 +93,11 @@ $vendors: webkit, moz, ms, o;
 	-webkit-animation-play-state: $playState;
 }
 
-@mixin transition( $prop, $duration, $ease, $delay: 0 ) {
-	-webkit-transition: $prop $duration $ease $delay;
-	-moz-transition: $prop $duration $ease $delay;
-	-ms-transition: $prop $duration $ease $delay;
-	-o-transition: $prop $duration $ease $delay;
-	transition: $prop $duration $ease $delay;
+@mixin transition ($transition) {
+    -webkit-transition: $transition;
+       -moz-transition: $transition;
+         -o-transition: $transition;
+            transition: $transition;
 }
 
 @mixin column-width( $width ) {

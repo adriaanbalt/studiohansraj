@@ -272,27 +272,28 @@ a {
   vertical-align: middle;
   display: inline-block;
   height: 100%;
-  width: 1px;
+  width: .1%;
 }
 
 /* line 54, ../../../website/app/scss/_layout.scss */
 .vcontent {
+  width: 98%;
   vertical-align: middle;
   display: inline-block;
 }
 
-/* line 59, ../../../website/app/scss/_layout.scss */
+/* line 60, ../../../website/app/scss/_layout.scss */
 object {
   display: block;
   margin: 0 auto;
 }
 
-/* line 63, ../../../website/app/scss/_layout.scss */
+/* line 64, ../../../website/app/scss/_layout.scss */
 .section {
   min-height: 100%;
 }
 
-/* line 66, ../../../website/app/scss/_layout.scss */
+/* line 67, ../../../website/app/scss/_layout.scss */
 section {
   width: 100%;
   min-height: 100%;
@@ -333,19 +334,18 @@ section {
 .loader-container .loader {
   background: url("../images/icon-ajax-loader.gif");
   display: block;
-  width: 36px;
-  height: 36px;
+  width: 24px;
+  height: 24px;
   position: absolute;
   z-index: 100;
   left: 50%;
   margin-left: -17px;
   opacity: 0;
   filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.5s ease-in-out 0;
-  -moz-transition: opacity 0.5s ease-in-out 0;
-  -ms-transition: opacity 0.5s ease-in-out 0;
-  -o-transition: opacity 0.5s ease-in-out 0;
-  transition: opacity 0.5s ease-in-out 0;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
 }
 
 /* line 37, ../../../website/app/scss/_main.scss */
@@ -542,6 +542,36 @@ body {
     top: 12px;
   }
 }
+/* line 1, ../../../website/app/scss/_intro.scss */
+#intro {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  z-index: 1000;
+  text-align: center;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+/* line 13, ../../../website/app/scss/_intro.scss */
+#intro img {
+  width: 100%;
+  -webkit-filter: brightness(5);
+  filter: brightness(5);
+}
+/* line 18, ../../../website/app/scss/_intro.scss */
+#intro.show {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
 /* line 1, ../../../website/app/scss/_logo.scss */
 .logo {
   width: 90%;
@@ -573,57 +603,58 @@ body {
   position: relative;
   display: block;
   margin: 2px;
-  -webkit-transition: all 0.2s ease-in 0;
-  -moz-transition: all 0.2s ease-in 0;
-  -ms-transition: all 0.2s ease-in 0;
-  -o-transition: all 0.2s ease-in 0;
-  transition: all 0.2s ease-in 0;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 /* line 18, ../../../website/app/scss/_listing.scss */
 #listing ul li a:hover img {
   opacity: 0.1;
   filter: alpha(opacity=10);
-  -webkit-filter: brightness(1.3);
+  -webkit-filter: brightness(1.8);
+  filter: brightness(1.8);
 }
-/* line 45, ../../../website/app/scss/_listing.scss */
+/* line 46, ../../../website/app/scss/_listing.scss */
 #listing ul li a:hover .vcontent {
   display: none;
   visibility: hidden;
 }
-/* line 50, ../../../website/app/scss/_listing.scss */
+/* line 51, ../../../website/app/scss/_listing.scss */
 #listing ul li a img {
-  -webkit-transition: all 200 none 0;
-  -moz-transition: all 200 none 0;
-  -ms-transition: all 200 none 0;
-  -o-transition: all 200 none 0;
-  transition: all 200 none 0;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
   opacity: 0;
   filter: alpha(opacity=0);
-  -webkit-transition: opacity 1s ease-in-out 0;
-  -moz-transition: opacity 1s ease-in-out 0;
-  -ms-transition: opacity 1s ease-in-out 0;
-  -o-transition: opacity 1s ease-in-out 0;
-  transition: opacity 1s ease-in-out 0;
   width: 100%;
-  z-index: 0;
-  top: 0;
+  position: relative;
 }
-/* line 53, ../../../website/app/scss/_listing.scss */
+/* line 54, ../../../website/app/scss/_listing.scss */
 #listing ul li a img.hide {
   opacity: 0;
   filter: alpha(opacity=0);
 }
-/* line 56, ../../../website/app/scss/_listing.scss */
+/* line 57, ../../../website/app/scss/_listing.scss */
 #listing ul li a img.loaded {
   opacity: 1;
   filter: alpha(opacity=100);
 }
-/* line 66, ../../../website/app/scss/_listing.scss */
+/* line 32, ../../../website/app/scss/_mixins.scss */
+#listing ul li a img:before {
+  content: "";
+  display: block;
+  padding-top: 133.33333% !important;
+  z-index: -999999;
+  position: relative;
+}
+/* line 67, ../../../website/app/scss/_listing.scss */
 #listing ul li a .valign {
   height: 100%;
   display: none;
 }
-/* line 70, ../../../website/app/scss/_listing.scss */
+/* line 71, ../../../website/app/scss/_listing.scss */
 #listing ul li a .vcontent {
   color: #FFF;
   font-weight: bold;
@@ -635,14 +666,14 @@ body {
   left: 0;
   width: 100%;
 }
-/* line 82, ../../../website/app/scss/_listing.scss */
+/* line 83, ../../../website/app/scss/_listing.scss */
 #listing ul li a:hover .vcontent {
   opacity: 0.5;
   filter: alpha(opacity=50);
 }
 
 /* Also, don't forget to add this: */
-/* line 95, ../../../website/app/scss/_listing.scss */
+/* line 96, ../../../website/app/scss/_listing.scss */
 [data-columns]::before {
   position: absolute;
   right: 9999em;
@@ -651,56 +682,56 @@ body {
 }
 
 /* Again, you’re free to use and define the classes: */
-/* line 103, ../../../website/app/scss/_listing.scss */
+/* line 104, ../../../website/app/scss/_listing.scss */
 .column {
   float: left;
 }
 
-/* line 104, ../../../website/app/scss/_listing.scss */
+/* line 105, ../../../website/app/scss/_listing.scss */
 .size-1of1 {
   width: 100%;
 }
 
-/* line 105, ../../../website/app/scss/_listing.scss */
+/* line 106, ../../../website/app/scss/_listing.scss */
 .size-1of2 {
   width: 50%;
 }
 
-/* line 106, ../../../website/app/scss/_listing.scss */
+/* line 107, ../../../website/app/scss/_listing.scss */
 .size-1of3 {
   width: 33.333%;
 }
 
-/* line 107, ../../../website/app/scss/_listing.scss */
+/* line 108, ../../../website/app/scss/_listing.scss */
 .size-1of4 {
   width: 25%;
 }
 
-/* line 108, ../../../website/app/scss/_listing.scss */
+/* line 109, ../../../website/app/scss/_listing.scss */
 .size-1of5 {
   width: 20%;
 }
 
 @media screen and (max-width: 480px) {
-  /* line 111, ../../../website/app/scss/_listing.scss */
+  /* line 112, ../../../website/app/scss/_listing.scss */
   #grid[data-columns]::before {
     content: '1 .column.size-1of1';
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
-  /* line 116, ../../../website/app/scss/_listing.scss */
+  /* line 117, ../../../website/app/scss/_listing.scss */
   #grid[data-columns]::before {
     content: '2 .column.size-1of2';
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1023px) {
-  /* line 122, ../../../website/app/scss/_listing.scss */
+  /* line 123, ../../../website/app/scss/_listing.scss */
   #grid[data-columns]::before {
     content: '3 .column.size-1of3';
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 128, ../../../website/app/scss/_listing.scss */
+  /* line 129, ../../../website/app/scss/_listing.scss */
   #grid[data-columns]::before {
     content: '4 .column.size-1of4';
   }
@@ -733,11 +764,10 @@ body {
 }
 /* line 22, ../../../website/app/scss/_details.scss */
 #details ul {
-  -webkit-transition: opacity 1s ease-in-out 0;
-  -moz-transition: opacity 1s ease-in-out 0;
-  -ms-transition: opacity 1s ease-in-out 0;
-  -o-transition: opacity 1s ease-in-out 0;
-  transition: opacity 1s ease-in-out 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
   list-style: none;
 }
 /* line 23, ../../../website/app/scss/_details.scss */
@@ -779,16 +809,33 @@ body {
 
 /* line 1, ../../../website/app/scss/_contact.scss */
 #contact {
-  margin: 9em auto;
-  width: 55%;
-  background: rgba(255, 255, 255, 0.5);
-  padding: 1em;
+  margin: 5em auto;
+  width: 65%;
 }
-/* line 7, ../../../website/app/scss/_contact.scss */
+/* line 6, ../../../website/app/scss/_contact.scss */
+#contact .container {
+  padding: 1em;
+  background: rgba(255, 255, 255, 0.5);
+  margin-bottom: 1em;
+}
+/* line 11, ../../../website/app/scss/_contact.scss */
+#contact img {
+  width: 100%;
+}
+/* line 14, ../../../website/app/scss/_contact.scss */
 #contact p {
   margin: 1em 0;
 }
-/* line 10, ../../../website/app/scss/_contact.scss */
+/* line 17, ../../../website/app/scss/_contact.scss */
+#contact .email {
+  font-weight: bold;
+  margin: 2em;
+}
+/* line 20, ../../../website/app/scss/_contact.scss */
+#contact .email a {
+  font-size: 24px;
+}
+/* line 24, ../../../website/app/scss/_contact.scss */
 #contact > div {
   margin: 0 0 1em 0;
   padding: 0 0 1em 0;

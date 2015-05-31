@@ -1,5 +1,5 @@
 /**
- * @fileOverview STUDIOHANSRAJ bootstrap JavaScript file
+ * @fileOverview STUDIOHANSRAJ 
  * @author <a href="mailto:adriaan@BALT.us">Adriaan Scholvinck</a> - <a href="http://BALT.us">www.BALT.us</a> 
  * @version 1
  */
@@ -34,8 +34,6 @@ window.STUDIOHANSRAJ = (function(self, window, undefined){
 			console.error = function() {};
 		}
 		
-		console.log('STUDIOHANSRAJ.initialize');
-
 		// Set body now that DOM is available	
 		STUDIOHANSRAJ.$body = $('body');
 
@@ -45,6 +43,7 @@ window.STUDIOHANSRAJ = (function(self, window, undefined){
 			large: 1280
 		}, STUDIOHANSRAJ.$body );
 
+		$intro 		= $('#intro');
 		$header 		= $('header');
 		$details 		= $('#details ul');
 		$info 			= $('#details .information');
@@ -65,6 +64,7 @@ window.STUDIOHANSRAJ = (function(self, window, undefined){
 
 	listingImagesLoaded = function() {
 		$loader.removeClass('show');
+		$intro.removeClass('show');
 	},
 
 	detailsImagesLoaded = function() {
@@ -77,15 +77,18 @@ window.STUDIOHANSRAJ = (function(self, window, undefined){
 	},
 
 	scolling = function(event) {
+			console.log ( 'headerWidth ', headerWidth );
 		if ( headerWidth ) {
 
 			var valueHeader, valueInfo, valueCopyright, properties;
 
-			leftMax = STUDIOHANSRAJ.Details.getWidth() - windowWidth;
+			leftMax = (STUDIOHANSRAJ.Details.getWidth() - windowWidth) < 0 ? 0 : (STUDIOHANSRAJ.Details.getWidth() - windowWidth);
 
 			if ( RwdResize.getLayoutByWidth() == "small" ) {
 				leftMax = 0;
 			}
+
+			console.log ( 'leftMax ', leftMax );
 
 			if ( 0 < $window.scrollLeft() && $window.scrollLeft() < leftMax ) {
 				// header

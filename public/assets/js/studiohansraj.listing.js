@@ -23,10 +23,11 @@ STUDIOHANSRAJ.Listing = (function(STUDIOHANSRAJ, window, undefined){
 	loaded = 0,
 	$listing = $('#listing ul'),
 	$listingIMGS = $('#listing ul img'),
-
+	
 	_imageOnloadHandler = function ( target ) {
 		loaded++;
 		target.addClass('loaded');
+		console.log ( 'target: ', target );
 		if ( loaded == totalImages ) {
 			callback();
 			// fade in

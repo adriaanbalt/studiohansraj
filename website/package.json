@@ -12,7 +12,7 @@
     "page": {
       "layout": "../global/views/layouts/default.hbs",
       "html": "app/views/**/*.hbs",
-      "js": "app/../assets/js/**/*.js",
+      "js": "app/assets/js/**/*.js",
       "scss": "app/scss",
       "data": [
         "app/data/**/*.json",

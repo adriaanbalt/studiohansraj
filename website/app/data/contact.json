@@ -39,6 +39,7 @@
 			"assets/js/libs/salvattore.min.js",
 			"assets/js/libs/selectize.js",
 			"assets/js/libs/pubSub.js",
+			"assets/js/libs/jquery.event.drag-2.2.js",
 			"assets/js/libs/rwdResize.js",
 			"assets/js/studiohansraj.js",
 			"assets/js/studiohansraj.intro.js",
@@ -49,9 +50,42 @@
 	},
 
 	"content":{
-		"about":"<p>Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.</p><p>For more information, to reach out regarding employment opportunities, or just to say hello, feel free to get in touch.</p>",
-		"image":"",
-		"address":"Brooklyn Navy Yard</br>63 Flushing Ave #608</br>Brooklyn, NY 11205",
-		"google":"https://goo.gl/maps/LFrTJ"
+		"about":"<p>Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design for fashion photography and commercial advertising.  Collaborating with our clients we develop the best imagery to enhance the magnetism and message of their brand.  Built on experience in the architectural and fabrication industries Studio Hansraj has a deep understanding of material and design which enables us to deliver the project.  With a keen attention to detail and a deep knowledge of resources we always strive to exceed the expectations of our clients.<p>For more information, to reach out regarding employment opportunities, or just to say hello, feel free to get in touch.</p>",
+		"image":"assets/images/Studio_Hansraj.jpg",
+		"address":"Brooklyn Navy Yard<br>63 Flushing Ave #608 Brooklyn, NY 11205",
+		"google":"https://goo.gl/maps/LFrTJ",
+		"email":"info@studiohansraj.com",
+		"client-list":[
+			{
+				"title":"Advertising",
+				"list":[
+					"Club Monaco",
+					"Barney's New York",
+					"Clinique",
+					"Olay",
+					"Urban Zen by Donna Karen",
+					"Victoria's Secret",
+					"Tommy Hilfiger Denim",
+					"Kohl's"
+				]
+			},
+
+			{
+				"title":"Editorial",
+				"list":[
+				
+					"iD Magazine",
+					"Vogue Australia",
+					"Interview Magazine",
+					"V Magazine",
+					"Creem Magazine",
+					"Last Magazine",
+					"Marfa Journal",
+					"Out Magazine",
+					"Out of Order Magazine",
+					"Carpark Magazine"
+				]
+			}
+		]
 	}
 }

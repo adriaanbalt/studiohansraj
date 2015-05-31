@@ -39,12 +39,14 @@
 			"assets/js/libs/salvattore.min.js",
 			"assets/js/libs/selectize.js",
 			"assets/js/libs/pubSub.js",
+			"assets/js/libs/jquery.event.drag-2.2.js",
 			"assets/js/libs/rwdResize.js",
 			"assets/js/studiohansraj.js",
 			"assets/js/studiohansraj.intro.js",
 			"assets/js/studiohansraj.listing.js",
 			"assets/js/studiohansraj.details.js",
-			"assets/js/studiohansraj.nav.js"
+			"assets/js/studiohansraj.nav.js",
+			"assets/js/detectizr.js"
 		]
 	},
 
@@ -53,129 +55,221 @@
 	"content":{
 		"projects":[
 			{
+				"slug" : "v-magazine-2",
+				"name" : "V Magazine",
+				"cover_photo" : "assets/images/32VMagazine/022615_V_2_152_V2-tear.jpg",
+				"width":"599",
+				"height":"800"
+			},
+			{
+				"slug" : "interview-magazine-2",
+				"name" : "Interview Magazine",
+				"cover_photo" : "assets/images/31Interview-Magazine/Le1F_interviewmagazine.jpg",
+				"width":"601",
+				"height":"800"
+			},
+			{
+				"slug" : "grey-magazine-2",
+				"name" : "Grey Magazine",
+				"cover_photo" : "assets/images/30Grey-Magazine/thumb.jpg",
+				"width":"600",
+				"height":"800"
+			},
+			{
+				"slug" : "v-magazine",
+				"name" : "V Magazine",
+				"cover_photo" : "assets/images/29V-MAGAZINE/thumb.jpg",
+				"width":"585",
+				"height":"800"
+			},
+			{
+				"slug" : "na-2015",
+				"name" : "N/A",
+				"cover_photo" : "assets/images/28NA/8.jpg",
+				"width":"640",
+				"height":"800"
+			},
+			{
+				"slug" : "Kim-Haller-fw-2015",
+				"name" : "Kim Haller",
+				"cover_photo" : "assets/images/27KimHallerFW2015/kimhaller_01.jpg",
+				"width":"533",
+				"height":"800"
+			},
+			{
 				"slug" : "Grey-Magazine",
 				"name" : "Grey Magazine",
-				"cover_photo" : "assets/images/22Grey-Magazine/thumb.jpg"
+				"cover_photo" : "assets/images/22Grey-Magazine/thumb.jpg",
+				"width":"640",
+				"height":"800"
 			},
 			{
 				"slug" : "barneys",
 				"name" : "BARNEY'S New York",
-				"cover_photo" : "assets/images/25Barneys/thumb.jpg"
+				"cover_photo" : "assets/images/25Barneys/thumb.jpg",
+				"width":"640",
+				"height":"762"
 			},
 			{
 				"slug" : "Creem-Magazine",
 				"name" : "Creem Magazine",
-				"cover_photo" : "assets/images/23CREEM-MAGAZINE/01.jpg"
+				"cover_photo" : "assets/images/23CREEM-MAGAZINE/01.jpg",
+				"width":"640",
+				"height":"800"
 			},
 			{
 				"slug" : "Club-Monaco-Party-Shop",
 				"name" : "Club Monaco",
-				"cover_photo" : "assets/images/24Club-Monaco-Party-Shop/thumb.jpg"
+				"cover_photo" : "assets/images/24Club-Monaco-Party-Shop/thumb.jpg",
+				"width":"480",
+				"height":"600"
 			},
 			{
 				"slug" : "Club-Monaco-Collection",
 				"name" : "Club Monaco",
-				"cover_photo" : "assets/images/26Club-Monaco-Collection/thumb.jpg"
+				"cover_photo" : "assets/images/26Club-Monaco-Collection/thumb.jpg",
+				"width":"640",
+				"height":"800"
 			},
 			{
 				"slug" : "Jonathan-Cohen-FW-2014",
 				"name" : "Jonathan Cohen FW 2014",
-				"cover_photo" : "assets/images/21Jonathan-Cohen-FW-2014/thumb.jpg"
+				"cover_photo" : "assets/images/21Jonathan-Cohen-FW-2014/thumb.jpg",
+				"width":"640",
+				"height":"800"
 			},
 			{
 				"slug" : "Last-Magazine-2",
 				"name" : "The Last Magazine",
-				"cover_photo" : "assets/images/20The-Last-Mag/last-magazine-01.jpg"
+				"cover_photo" : "assets/images/20The-Last-Mag/last-magazine-01.jpg",
+				"width":"566",
+				"height":"800"
 			},
 			{
 				"slug" : "Jake-Jones-FW-2014",
 				"name" : "Jake Jones Fall Winter",
-				"cover_photo" : "assets/images/19Jake_Jones_FW/jakejones-fw-02.jpg"
+				"cover_photo" : "assets/images/19Jake_Jones_FW/jakejones-fw-02.jpg",
+				"width":"629",
+				"height":"800"
 			},
 			{
 				"slug" : "Out-Magazine",
 				"name" : "Out Magazine",
-				"cover_photo" : "assets/images/18Out_Mag/outmagazine-01.jpg"
+				"cover_photo" : "assets/images/18Out_Mag/outmagazine-01.jpg",
+				"width":"579",
+				"height":"800"
 			},
 			{
 				"slug" : "AF-Personal",
 				"name" : "AF Personal",
-				"cover_photo" : "assets/images/17AF_PERSONAL_FINALS/afpersonal-04.jpg"
+				"cover_photo" : "assets/images/17AF_PERSONAL_FINALS/afpersonal-04.jpg",
+				"width":"533",
+				"height":"800"
 			},
 			{
 				"slug" : "Jimon-Magazine",
 				"name" : "Jimon Magazine",
-				"cover_photo" : "assets/images/16Burdzinski_jimon/burdzinskijimon-02.jpg"
+				"cover_photo" : "assets/images/16Burdzinski_jimon/burdzinskijimon-02.jpg",
+				"width":"629",
+				"height":"800"
 			},
 			{
 				"slug" : "Interview-Magazine",
 				"name" : "Interview Magazine",
-				"cover_photo" : "assets/images/15interview_magazine_Bill_Hader/interview-bilhader-01.jpg"
+				"cover_photo" : "assets/images/15interview_magazine_Bill_Hader/interview-bilhader-01.jpg",
+				"width":"622",
+				"height":"800"
 			},
 			{
 				"slug" : "Club-Monaco-September",
 				"name" : "Club Monaco",
-				"cover_photo" : "assets/images/14Club_Monaco_September/clubmonacoseptember-01.jpg"
+				"cover_photo" : "assets/images/14Club_Monaco_September/clubmonacoseptember-01.jpg",
+				"width":"534",
+				"height":"800"
 			},
 			{
 				"slug" : "Vogue-Australia",
 				"name" : "Vogue Australia",
-				"cover_photo" : "assets/images/13Vogue_Australia/vogueaustralia-thumbnail.jpg"
+				"cover_photo" : "assets/images/13Vogue_Australia/vogueaustralia-thumbnail.jpg",
+				"width":"640",
+				"height":"800"
 			},
 			{
 				"slug" : "Kim-Haller",
 				"name" : "Kim Haller",
-				"cover_photo" : "assets/images/12Kim_Haller/kimhaller-04.jpg"
+				"cover_photo" : "assets/images/12Kim_Haller/kimhaller-04.jpg",
+				"width":"500",
+				"height":"667"
 			},
 			{
 				"slug" : "i-D-Magazine-2",
 				"name" : "i-D Magazine",
-				"cover_photo" : "assets/images/11i-D_Magazine_Editorial/id-01.jpg"
+				"cover_photo" : "assets/images/11i-D_Magazine_Editorial/id-01.jpg",
+				"width":"620",
+				"height":"800"
 			},
 			{
 				"slug" : "Jake-Jones",
 				"name" : "Jake Jones",
-				"cover_photo" : "assets/images/10Jake_Jones_Test/jakejones-02.jpg"
+				"cover_photo" : "assets/images/10Jake_Jones_Test/jakejones-02.jpg",
+				"width":"571",
+				"height":"800"
 			},
 			{
 				"slug" : "i-D-Magazine-1",
 				"name" : "i-D Magazine",
-				"cover_photo" : "assets/images/09i-D_Magazine_Andre_Walker/id-01.jpg"
+				"cover_photo" : "assets/images/09i-D_Magazine_Andre_Walker/id-01.jpg",
+				"width":"600",
+				"height":"800"
 			},
 			{
 				"slug" : "Last-Magazine-1",
 				"name" : "The Last Magazine",
-				"cover_photo" : "assets/images/08The_Last_Magazine_Noir/lastmagazinenoir-08.jpg"
+				"cover_photo" : "assets/images/08The_Last_Magazine_Noir/lastmagazinenoir-08.jpg",
+				"width":"600",
+				"height":"800"
 			},
 			{
 				"slug" : "Society",
 				"name" : "Society",
-				"cover_photo" : "assets/images/07Society/society-01.jpg"
+				"cover_photo" : "assets/images/07Society/society-01.jpg",
+				"width":"600",
+				"height":"800"
 			},
 			{
 				"slug" : "Marfa-Journal",
 				"name" : "Marfa Journal",
-				"cover_photo" : "assets/images/06Marfa_Journal/marfa-02.jpg"
+				"cover_photo" : "assets/images/06Marfa_Journal/marfa-02.jpg",
+				"width":"566",
+				"height":"800"
 			},
 			{
 				"slug" : "Seedless",
 				"name" : "Seedless",
-				"cover_photo" : "assets/images/05Seedless/seedless-thumbnail.jpg"
+				"cover_photo" : "assets/images/05Seedless/seedless-thumbnail.jpg",
+				"width":"640",
+				"height":"800"
 			},
 			{
 				"slug" : "Jonathan-Cohen-SS-2014",
 				"name" : "Jonathan Cohen SS 2014",
-				"cover_photo" : "assets/images/04Jonathan_Cohen_SS_2014/jonathancohen-01.jpg"
+				"cover_photo" : "assets/images/04Jonathan_Cohen_SS_2014/jonathancohen-01.jpg",
+				"width":"571",
+				"height":"800"
 			},
 			{
 				"slug" : "Man-of-the-World",
 				"name" : "Man of The World",
-				"cover_photo" : "assets/images/03Mens_World_Web/Mens-World-01.jpg"
+				"cover_photo" : "assets/images/03Mens_World_Web/Mens-World-01.jpg",
+				"width":"600",
+				"height":"800"
 			},
 			{
 				"slug" : "Urban-Zen",
 				"name" : "Urban Zen",
-				"cover_photo" : "assets/images/01Urban_Zen_Finals/urbanzen-01.jpg"
+				"cover_photo" : "assets/images/01Urban_Zen_Finals/urbanzen-01.jpg",
+				"width":"675",
+				"height":"900"
 			}
 		]
 	}

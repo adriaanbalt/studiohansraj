@@ -1,0 +1,75 @@
+{
+    "head":{
+        "title":"Studio Hansraj",
+        "description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+        "keywords":"set design, production design, fashion, architecture, fabrication",
+        "styles":[
+            "../assets/css/screen.css",
+            "../assets/css/selectize.bootstrap3.css"
+        ],
+        "scripts":[
+            "../assets/js/libs/modernizr-2.6.2-respond-1.1.0.min.js"
+        ],
+        "social":{
+            "facebook":{
+                "title":"Studio Hansraj",
+                "description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+                "image":"",
+                "url":"http://www.studiohansraj.com"
+            },
+            "twitter":{
+                "title":"Studio Hansraj",
+                "description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+                "image":"",
+                "creator":"@StudioHansraj",
+                "site":"http://www.studiohansraj.com"
+            },
+            "google":{
+                "title":"Studio Hansraj",
+                "description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+                "image":""
+            }
+        }
+    },
+
+    "foot":{
+        "google-analytics":"UA-54477259-1",
+        "scripts":[
+            "//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js",
+            "../assets/js/libs/salvattore.min.js",
+            "../assets/js/libs/selectize.js",
+            "../assets/js/libs/pubSub.js",
+            "../assets/js/libs/jquery.event.drag-2.2.js",
+            "../assets/js/libs/rwdResize.js",
+            "../assets/js/studiohansraj.js",
+            "../assets/js/studiohansraj.intro.js",
+            "../assets/js/studiohansraj.listing.js",
+            "../assets/js/studiohansraj.details.js",
+            "../assets/js/studiohansraj.nav.js"
+        ]
+    },
+
+    "content":{
+        "slug" : "interview-magazine-2",
+        "name" : "",
+        "client" : "V Magazine",
+        "client_url" : "www.vmagazine.com",
+        "director" : "",
+        "director_url" : "",
+        "photographer" : "Jai Odell",
+        "photographer_url" : "http://jaiodell.com",
+        "stylist" : "Jessica Dos Remedios",
+        "stylist_url" : "http://jessicadosremedios.com",
+        "talent" : "Le1f",
+        "talent_agency" : "http://en.wikipedia.org/wiki/Leif_%28rapper%29",
+        "talent_url" : "",
+        "makeup" : "Morgane Martini",
+        "makeup_url" : "http://www.thewallgroup.com/artist.php?artist_id=264",
+        "hair" : "Joey George",
+        "hair_url" : "http://joeygeorge.format.com",
+        "cover_photo" : "../assets/images/31Interview-Magazine/Le1F_interviewmagazine.jpg",
+        "gallery":[
+            "../assets/images/31Interview-Magazine/Le1F_interviewmagazine.jpg"
+        ]
+    }
+}

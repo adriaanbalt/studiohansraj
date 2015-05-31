@@ -1,0 +1,81 @@
+{
+    "head":{
+        "title":"Studio Hansraj",
+        "description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+        "keywords":"set design, production design, fashion, architecture, fabrication",
+        "styles":[
+            "../assets/css/screen.css",
+            "../assets/css/selectize.bootstrap3.css"
+        ],
+        "scripts":[
+            "../assets/js/libs/modernizr-2.6.2-respond-1.1.0.min.js"
+        ],
+        "social":{
+            "facebook":{
+                "title":"Studio Hansraj",
+                "description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+                "image":"",
+                "url":"http://www.studiohansraj.com"
+            },
+            "twitter":{
+                "title":"Studio Hansraj",
+                "description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+                "image":"",
+                "creator":"@StudioHansraj",
+                "site":"http://www.studiohansraj.com"
+            },
+            "google":{
+                "title":"Studio Hansraj",
+                "description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+                "image":""
+            }
+        }
+    },
+
+    "foot":{
+        "google-analytics":"UA-54477259-1",
+        "scripts":[
+            "//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js",
+            "../assets/js/libs/salvattore.min.js",
+            "../assets/js/libs/selectize.js",
+            "../assets/js/libs/pubSub.js",
+            "../assets/js/libs/jquery.event.drag-2.2.js",
+            "../assets/js/libs/rwdResize.js",
+            "../assets/js/studiohansraj.js",
+            "../assets/js/studiohansraj.intro.js",
+            "../assets/js/studiohansraj.listing.js",
+            "../assets/js/studiohansraj.details.js",
+            "../assets/js/studiohansraj.nav.js"
+        ]
+    },
+
+    "content":{
+        "slug" : "Kim-Haller-fw-2015",
+        "name" : "Kim Haller",
+        "client" : "Kim Haller",
+        "client_url" : "",
+        "director" : "",
+        "director_url" : "",
+        "photographer" : "Paola Ambrosi de Magistris + Murray Hall",
+        "photographer_url" : "http://www.pamu.com",
+        "stylist" : "Angelica Nelson",
+        "stylist_url" : "http://www.inartistmanagement.com/STYLIST/ANGELICA--Nelson/1",
+        "talent" : "Karolina Wallace",
+        "talent_agency" : "",
+        "talent_url" : "",
+        "makeup" : "Yinna Wang",
+        "makeup_url" : "http://yinna-wang.squarespace.com/",
+        "hair" : "Tony Kelley",
+        "hair_url" : "www.tonykelleyhair.com",
+        "cover_photo" : "../assets/images/27KimHallerFW2015/kimhaller_01.jpg",
+        "gallery":[
+            "../assets/images/27KimHallerFW2015/kimhaller_01.jpg",
+            "../assets/images/27KimHallerFW2015/kimhaller_02.jpg",
+            "../assets/images/27KimHallerFW2015/kimhaller_03.jpg",
+            "../assets/images/27KimHallerFW2015/kimhaller_04.jpg",
+            "../assets/images/27KimHallerFW2015/kimhaller_05.jpg",
+            "../assets/images/27KimHallerFW2015/kimhaller_06.jpg",
+            "../assets/images/27KimHallerFW2015/kimhaller_07.jpg"
+        ]
+    }
+}

@@ -39,6 +39,7 @@
 			"../assets/js/libs/salvattore.min.js",
 			"../assets/js/libs/selectize.js",
 			"../assets/js/libs/pubSub.js",
+			"../assets/js/libs/jquery.event.drag-2.2.js",
 			"../assets/js/libs/rwdResize.js",
 			"../assets/js/studiohansraj.js",
 			"../assets/js/studiohansraj.intro.js",

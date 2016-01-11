@@ -35,17 +35,7 @@
     "foot":{
         "google-analytics":"UA-54477259-1",
         "scripts":[
-            "//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js",
-            "../assets/js/libs/salvattore.min.js",
-            "../assets/js/libs/selectize.js",
-            "../assets/js/libs/pubSub.js",
-            "../assets/js/libs/jquery.event.drag-2.2.js",
-            "../assets/js/libs/rwdResize.js",
-            "../assets/js/studiohansraj.js",
-            "../assets/js/studiohansraj.intro.js",
-            "../assets/js/studiohansraj.listing.js",
-            "../assets/js/studiohansraj.details.js",
-            "../assets/js/studiohansraj.nav.js"
+            "../assets/js/main.js"
         ]
     },
 
@@ -67,10 +57,10 @@
         "makeup_url" : "",
         "hair" : "",
         "hair_url" : "",
-        "cover_photo" : "../assets/images/32VMagazine/022615_V_2_152_V2-tear.jpg",
+        "cover_photo" : "../assets/images/32VMagazine/2.jpg",
         "gallery":[
-            "../assets/images/32VMagazine/022615_V_1-tear-copy.jpg",
-            "../assets/images/32VMagazine/022615_V_2_152_V2-tear.jpg"
+            "../assets/images/32VMagazine/1.jpg",
+            "../assets/images/32VMagazine/2.jpg"
         ]
     }
 }

@@ -1,0 +1,70 @@
+{
+    "head":{
+        "title":"Studio Hansraj",
+        "description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+        "keywords":"set design, production design, fashion, architecture, fabrication",
+        "styles":[
+            "../assets/css/screen.css",
+            "../assets/css/selectize.bootstrap3.css"
+        ],
+        "scripts":[
+            "../assets/js/libs/modernizr-2.6.2-respond-1.1.0.min.js"
+        ],
+        "social":{
+            "facebook":{
+                "title":"Studio Hansraj",
+                "description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+                "image":"",
+                "url":"http://www.studiohansraj.com"
+            },
+            "twitter":{
+                "title":"Studio Hansraj",
+                "description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+                "image":"",
+                "creator":"@StudioHansraj",
+                "site":"http://www.studiohansraj.com"
+            },
+            "google":{
+                "title":"Studio Hansraj",
+                "description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+                "image":""
+            }
+        }
+    },
+
+    "foot":{
+        "google-analytics":"UA-54477259-1",
+        "scripts":[
+            "../assets/js/main.js"
+        ]
+    },
+
+    "content":{
+        "slug" : "41Self-Magazine",
+        "name" : "Self Magazine",
+        "client" : "Self Magazine",
+        "client_url" : "http://www.self.com/",
+        "director" : "",
+        "director_url" : "",
+        "photographer" : "Bjarne Jonasson",
+        "photographer_url" : "",
+        "stylist" : "Lauren Austin Wood",
+        "stylist_url" : "",
+        "talent" : "Emily Didanato",
+        "talent_agency" : "",
+        "talent_url" : "",
+        "makeup" : "Sam Addington",
+        "makeup_url" : "",
+        "hair" : "Charles McNair",
+        "hair_url" : "",
+        "cover_photo" : "../assets/images/41Self-Magazine/05.jpg",
+        "gallery":[
+            "../assets/images/41Self-Magazine/01.jpg",
+            "../assets/images/41Self-Magazine/02.jpg",
+            "../assets/images/41Self-Magazine/03.jpg",
+            "../assets/images/41Self-Magazine/04.jpg",
+            "../assets/images/41Self-Magazine/05.jpg",
+            "../assets/images/41Self-Magazine/06.jpg"
+        ]
+    }
+}

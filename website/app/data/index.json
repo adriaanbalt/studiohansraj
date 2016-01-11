@@ -35,18 +35,7 @@
 	"foot":{
 		"google-analytics":"UA-54477259-1",
 		"scripts":[
-			"//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js",
-			"assets/js/libs/salvattore.min.js",
-			"assets/js/libs/selectize.js",
-			"assets/js/libs/pubSub.js",
-			"assets/js/libs/jquery.event.drag-2.2.js",
-			"assets/js/libs/rwdResize.js",
-			"assets/js/studiohansraj.js",
-			"assets/js/studiohansraj.intro.js",
-			"assets/js/studiohansraj.listing.js",
-			"assets/js/studiohansraj.details.js",
-			"assets/js/studiohansraj.nav.js",
-			"assets/js/detectizr.js"
+			"assets/js/main.js"
 		]
 	},
 
@@ -55,9 +44,79 @@
 	"content":{
 		"projects":[
 			{
+				"slug" : "42Neiman-Marcus",
+				"name" : "Neiman Marcus",
+				"cover_photo" : "assets/images/42Neiman-Marcus/04.jpg",
+				"width":"533",
+				"height":"801"
+			},
+			{
+				"slug" : "41Self-Magazine",
+				"name" : "Self Magazine",
+				"cover_photo" : "assets/images/41Self-Magazine/05.jpg",
+				"width":"588",
+				"height":"800"
+			},
+			{
+				"slug" : "40Bloomingdales",
+				"name" : "Bloomingdales",
+				"cover_photo" : "assets/images/40Bloomingdales/8.jpg",
+				"width":"672",
+				"height":"800"
+			},
+			{
+				"slug" : "39OOO",
+				"name" : "OOO",
+				"cover_photo" : "assets/images/39OOO/thumb.jpg",
+				"width":"596",
+				"height":"800"
+			},
+			{
+				"slug" : "38Harpers-Bazaar-En-Espanol",
+				"name" : "Harpers Bazaar En Espanol",
+				"cover_photo" : "assets/images/38Harpers-Bazaar-En-Espanol/07.jpg",
+				"width":"596",
+				"height":"800"
+			},
+			{
+				"slug" : "37KitandAce",
+				"name" : "kitandace",
+				"cover_photo" : "assets/images/37KitandAce/thumb.jpg",
+				"width":"434",
+				"height":"600"
+			},
+			{
+				"slug" : "bloomingdales-01",
+				"name" : "bloomingdales",
+				"cover_photo" : "assets/images/36Bloomingdales/7.jpg",
+				"width":"640",
+				"height":"800"
+			},
+			{
+				"slug" : "unconditional-magazine",
+				"name" : "Unconditional Magazine",
+				"cover_photo" : "assets/images/35CentreFold-Magazine/8.jpg",
+				"width":"707",
+				"height":"900"
+			},
+			{
+				"slug" : "barneys-02",
+				"name" : "Barneys",
+				"cover_photo" : "assets/images/34BarneysNY/thumb.jpg",
+				"width":"571",
+				"height":"800"
+			},
+			{
+				"slug" : "carpark-magazine",
+				"name" : "Carpark Magazine",
+				"cover_photo" : "assets/images/33CARPARK-Magazine/thumb.jpg",
+				"width":"571",
+				"height":"800"
+			},
+			{
 				"slug" : "v-magazine-2",
 				"name" : "V Magazine",
-				"cover_photo" : "assets/images/32VMagazine/022615_V_2_152_V2-tear.jpg",
+				"cover_photo" : "assets/images/32VMagazine/2.jpg",
 				"width":"599",
 				"height":"800"
 			},
@@ -132,13 +191,6 @@
 				"height":"800"
 			},
 			{
-				"slug" : "Jonathan-Cohen-FW-2014",
-				"name" : "Jonathan Cohen FW 2014",
-				"cover_photo" : "assets/images/21Jonathan-Cohen-FW-2014/thumb.jpg",
-				"width":"640",
-				"height":"800"
-			},
-			{
 				"slug" : "Last-Magazine-2",
 				"name" : "The Last Magazine",
 				"cover_photo" : "assets/images/20The-Last-Mag/last-magazine-01.jpg",
@@ -157,13 +209,6 @@
 				"name" : "Out Magazine",
 				"cover_photo" : "assets/images/18Out_Mag/outmagazine-01.jpg",
 				"width":"579",
-				"height":"800"
-			},
-			{
-				"slug" : "AF-Personal",
-				"name" : "AF Personal",
-				"cover_photo" : "assets/images/17AF_PERSONAL_FINALS/afpersonal-04.jpg",
-				"width":"533",
 				"height":"800"
 			},
 			{
@@ -195,13 +240,6 @@
 				"height":"800"
 			},
 			{
-				"slug" : "Kim-Haller",
-				"name" : "Kim Haller",
-				"cover_photo" : "assets/images/12Kim_Haller/kimhaller-04.jpg",
-				"width":"500",
-				"height":"667"
-			},
-			{
 				"slug" : "i-D-Magazine-2",
 				"name" : "i-D Magazine",
 				"cover_photo" : "assets/images/11i-D_Magazine_Editorial/id-01.jpg",
@@ -213,13 +251,6 @@
 				"name" : "Jake Jones",
 				"cover_photo" : "assets/images/10Jake_Jones_Test/jakejones-02.jpg",
 				"width":"571",
-				"height":"800"
-			},
-			{
-				"slug" : "i-D-Magazine-1",
-				"name" : "i-D Magazine",
-				"cover_photo" : "assets/images/09i-D_Magazine_Andre_Walker/id-01.jpg",
-				"width":"600",
 				"height":"800"
 			},
 			{
@@ -248,13 +279,6 @@
 				"name" : "Seedless",
 				"cover_photo" : "assets/images/05Seedless/seedless-thumbnail.jpg",
 				"width":"640",
-				"height":"800"
-			},
-			{
-				"slug" : "Jonathan-Cohen-SS-2014",
-				"name" : "Jonathan Cohen SS 2014",
-				"cover_photo" : "assets/images/04Jonathan_Cohen_SS_2014/jonathancohen-01.jpg",
-				"width":"571",
 				"height":"800"
 			},
 			{

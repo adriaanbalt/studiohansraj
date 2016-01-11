@@ -1,0 +1,76 @@
+{
+    "head":{
+        "title":"Studio Hansraj",
+        "description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+        "keywords":"set design, production design, fashion, architecture, fabrication",
+        "styles":[
+            "../assets/css/screen.css",
+            "../assets/css/selectize.bootstrap3.css"
+        ],
+        "scripts":[
+            "../assets/js/libs/modernizr-2.6.2-respond-1.1.0.min.js"
+        ],
+        "social":{
+            "facebook":{
+                "title":"Studio Hansraj",
+                "description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+                "image":"",
+                "url":"http://www.studiohansraj.com"
+            },
+            "twitter":{
+                "title":"Studio Hansraj",
+                "description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+                "image":"",
+                "creator":"@StudioHansraj",
+                "site":"http://www.studiohansraj.com"
+            },
+            "google":{
+                "title":"Studio Hansraj",
+                "description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+                "image":""
+            }
+        }
+    },
+
+    "foot":{
+        "google-analytics":"UA-54477259-1",
+        "scripts":[
+            "../assets/js/main.js"
+        ]
+    },
+
+
+    "content":{
+        "slug" : "42Neiman-Marcus",
+        "name" : "Neiman Marcus",
+        "client" : "Neiman Marcus",
+        "client_url" : "https://www.neimanmarcus.com",
+        "director" : "",
+        "director_url" : "",
+        "photographer" : "Christine Hahn",
+        "photographer_url" : "",
+        "stylist" : "Kim Johnson",
+        "stylist_url" : "",
+        "talent" : "Anne V.",
+        "talent_agency" : "",
+        "talent_url" : "",
+        "makeup" : "Daenna Melluso",
+        "makeup_url" : "",
+        "hair" : "Michael Silva",
+        "hair_url" : "",
+        "cover_photo" : "../assets/images/42Neiman-Marcus/04.jpg",
+        "gallery":[
+            "../assets/images/42Neiman-Marcus/01.jpg",
+            "../assets/images/42Neiman-Marcus/02.jpg",
+            "../assets/images/42Neiman-Marcus/03.jpg",
+            "../assets/images/42Neiman-Marcus/04.jpg",
+            "../assets/images/42Neiman-Marcus/05.jpg",
+            "../assets/images/42Neiman-Marcus/06.jpg",
+            "../assets/images/42Neiman-Marcus/08.jpg",
+            "../assets/images/42Neiman-Marcus/09.jpg",
+            "../assets/images/42Neiman-Marcus/10.jpg",
+            "../assets/images/42Neiman-Marcus/11.jpg",
+            "../assets/images/42Neiman-Marcus/12.jpg"
+        ]
+    }
+}

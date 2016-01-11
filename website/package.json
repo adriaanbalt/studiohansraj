@@ -12,7 +12,7 @@
     "page": {
       "layout": "../global/views/layouts/default.hbs",
       "html": "app/views/**/*.hbs",
-      "js": "app/assets/js/**/*.js",
+      "js": ["app/assets/js/libs/*.js","app/assets/js/*.js"],
       "scss": "app/scss",
       "data": [
         "app/data/**/*.json",
@@ -48,7 +48,9 @@
     "load-grunt-tasks": "^0.4.0",
     "time-grunt": "^0.3.1",
     "assemble": "^0.4.42",
-    "handlebars-helpers": "^0.5.8"
+    "handlebars-helpers": "^0.5.8",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-uglify": "^0.9.1"
   },
   "dependencies": {
     "lodash": "^2.4.1"

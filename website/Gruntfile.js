@@ -40,6 +40,25 @@ module.exports = function(grunt) {
 			}
 		},
 
+		// Concat
+		// https://github.com/gruntjs/grunt-contrib-concat
+		concat: {
+			dist: {
+				src: '<%= pkg.paths.page.js %>',
+				dest: '<%= pkg.directory.dist %>/assets/js/main.js',
+			},
+		},
+
+		// Uglify
+		// https://github.com/gruntjs/grunt-contrib-uglify
+		uglify: {
+			dist: {
+				files: {
+					'<%= pkg.directory.dist %>/assets/js/main.min.js': ['<%= pkg.directory.dist %>/assets/js/main.js']
+				}
+			}
+		},
+
 		// Compass
 		// Generates the CSS from SCSS files
 		// https://github.com/gruntjs/grunt-contrib-compass
@@ -85,7 +104,7 @@ module.exports = function(grunt) {
 		// https://github.com/gruntjs/grunt-contrib-watch
 		watch: {
 			js: {
-				files: ['<%= pkg.paths.global.js %>','<%= pkg.paths.page.js %>'],
+				files: '<%= pkg.paths.page.js %>',
 				tasks: ['copy:dist'],
 				options: {
 					livereload: true
@@ -114,11 +133,28 @@ module.exports = function(grunt) {
 			}
 		},
 
+		// Grunt Connect
+		// https://github.com/gruntjs/grunt-contrib-connect
+		// Used to create a static web server for dist
+		connect: {
+			options: {
+				port: 7001,
+				keepalive: true,
+				hostname: 'localhost'
+			},
+			dist: {
+				options: {
+					open: true,
+					base: '../public'
+				}
+			}
+		},
+
 		// Concurrent
 		// Allow multiple tasks to occur at once.  Using this technique because it gives us flexibility in the future to add other tasks such as CONNECT.
 		// https://github.com/sindresorhus/grunt-concurrent
 		concurrent: {
-			dist: ['watch'],
+			dist: ['watch','connect:dist'],
 			options: {
 				logConcurrentOutput: true
 			}
@@ -138,8 +174,13 @@ module.exports = function(grunt) {
 		// Sass compilation
 		'compass:dist',
 
+
+		'concat:dist',
+
 		// Copy HTML and assets
-		'copy:dist'
+		'copy:dist',
+
+		'uglify:dist'
 
 	]);
 

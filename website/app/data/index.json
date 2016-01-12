@@ -53,14 +53,14 @@
 			{
 				"slug" : "41Self-Magazine",
 				"name" : "Self Magazine",
-				"cover_photo" : "assets/images/41Self-Magazine/05.jpg",
+				"cover_photo" : "assets/images/41Self-Magazine/04.jpg",
 				"width":"588",
 				"height":"800"
 			},
 			{
 				"slug" : "40Bloomingdales",
 				"name" : "Bloomingdales",
-				"cover_photo" : "assets/images/40Bloomingdales/8.jpg",
+				"cover_photo" : "assets/images/40Bloomingdales/1.jpg",
 				"width":"672",
 				"height":"800"
 			},
@@ -74,7 +74,7 @@
 			{
 				"slug" : "38Harpers-Bazaar-En-Espanol",
 				"name" : "Harpers Bazaar En Espanol",
-				"cover_photo" : "assets/images/38Harpers-Bazaar-En-Espanol/07.jpg",
+				"cover_photo" : "assets/images/38Harpers-Bazaar-En-Espanol/01.jpg",
 				"width":"596",
 				"height":"800"
 			},
@@ -88,7 +88,7 @@
 			{
 				"slug" : "bloomingdales-01",
 				"name" : "bloomingdales",
-				"cover_photo" : "assets/images/36Bloomingdales/7.jpg",
+				"cover_photo" : "assets/images/36Bloomingdales/1.jpg",
 				"width":"640",
 				"height":"800"
 			},
@@ -146,13 +146,6 @@
 				"name" : "N/A",
 				"cover_photo" : "assets/images/28NA/8.jpg",
 				"width":"640",
-				"height":"800"
-			},
-			{
-				"slug" : "Kim-Haller-fw-2015",
-				"name" : "Kim Haller",
-				"cover_photo" : "assets/images/27KimHallerFW2015/kimhaller_01.jpg",
-				"width":"533",
 				"height":"800"
 			},
 			{

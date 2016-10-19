@@ -57,15 +57,16 @@
 		"makeup_url" : "",
 		"hair" : "",
 		"hair_url" : "",
-		"cover_photo" : "../assets/images/02Wolf_Magazine/wolfmagazine-thumbnail.jpg",
+		"cover_photo" : "../assets/images/48openingceremony/thumbnail.jpg",
 		"gallery":[
-			"../assets/images/02Wolf_Magazine/wolfmagazine-01.jpg",
-			"../assets/images/02Wolf_Magazine/wolfmagazine-02.jpg",
-			"../assets/images/02Wolf_Magazine/wolfmagazine-03.jpg",
-			"../assets/images/02Wolf_Magazine/wolfmagazine-04.jpg",
-			"../assets/images/02Wolf_Magazine/wolfmagazine-05.jpg",
-			"../assets/images/02Wolf_Magazine/wolfmagazine-06.jpg",
-			"../assets/images/02Wolf_Magazine/wolfmagazine-07.jpg"
+			"../assets/images/48openingceremony/render.jpg",
+			"../assets/images/48openingceremony/01.jpg",
+			"../assets/images/48openingceremony/02.jpg",
+			"../assets/images/48openingceremony/03.jpg",
+			"../assets/images/48openingceremony/04.jpg",
+			"../assets/images/48openingceremony/05.jpg",
+			"../assets/images/48openingceremony/06.jpg",
+			"../assets/images/48openingceremony/07.jpg"
 		]
 	}
 }

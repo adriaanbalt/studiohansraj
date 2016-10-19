@@ -57,15 +57,22 @@
 		"makeup_url" : "",
 		"hair" : "",
 		"hair_url" : "",
-		"cover_photo" : "../assets/images/02Wolf_Magazine/wolfmagazine-thumbnail.jpg",
+		"cover_photo" : "../assets/images/51sedition-mag/thumbnail.jpg",
 		"gallery":[
-			"../assets/images/02Wolf_Magazine/wolfmagazine-01.jpg",
-			"../assets/images/02Wolf_Magazine/wolfmagazine-02.jpg",
-			"../assets/images/02Wolf_Magazine/wolfmagazine-03.jpg",
-			"../assets/images/02Wolf_Magazine/wolfmagazine-04.jpg",
-			"../assets/images/02Wolf_Magazine/wolfmagazine-05.jpg",
-			"../assets/images/02Wolf_Magazine/wolfmagazine-06.jpg",
-			"../assets/images/02Wolf_Magazine/wolfmagazine-07.jpg"
+			"../assets/images/51sedition-mag/render.jpg",
+			"../assets/images/51sedition-mag/01.jpg",
+			"../assets/images/51sedition-mag/02.jpg",
+			"../assets/images/51sedition-mag/03.jpg",
+			"../assets/images/51sedition-mag/04.jpg",
+			"../assets/images/51sedition-mag/05.jpg",
+			"../assets/images/51sedition-mag/06.jpg",
+			"../assets/images/51sedition-mag/07.jpg",
+			"../assets/images/51sedition-mag/08.jpg",
+			"../assets/images/51sedition-mag/09.jpg",
+			"../assets/images/51sedition-mag/10.jpg",
+			"../assets/images/51sedition-mag/11.jpg",
+			"../assets/images/51sedition-mag/12.jpg",
+			"../assets/images/51sedition-mag/13.jpg"
 		]
 	}
 }

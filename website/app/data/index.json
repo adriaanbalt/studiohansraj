@@ -44,6 +44,13 @@
 	"content":{
 		"projects":[
 			{
+				"slug" : "43Heroine_FINALS",
+				"name" : "Heroine",
+				"cover_photo" : "assets/images/42Neiman-Marcus/04.jpg",
+				"width":"533",
+				"height":"801"
+			},
+			{
 				"slug" : "42Neiman-Marcus",
 				"name" : "Neiman Marcus",
 				"cover_photo" : "assets/images/42Neiman-Marcus/04.jpg",

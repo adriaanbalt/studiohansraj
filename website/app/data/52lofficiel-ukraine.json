@@ -1,0 +1,71 @@
+{
+	"head":{
+		"title":"Studio Hansraj",
+		"description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+		"keywords":"set design, production design, fashion, architecture, fabrication",
+		"styles":[
+			"../assets/css/screen.css",
+			"../assets/css/selectize.bootstrap3.css"
+		],
+		"scripts":[
+			"../assets/js/libs/modernizr-2.6.2-respond-1.1.0.min.js"
+		],
+		"social":{
+			"facebook":{
+				"title":"Studio Hansraj",
+				"description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+				"image":"",
+				"url":"http://www.studiohansraj.com"
+			},
+			"twitter":{
+				"title":"Studio Hansraj",
+				"description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+				"image":"",
+				"creator":"@StudioHansraj",
+				"site":"http://www.studiohansraj.com"
+			},
+			"google":{
+				"title":"Studio Hansraj",
+				"description":"Located in the historic Brooklyn Navy Yard, Studio Hansraj specializes in set and production design.  Having had experience in architecture, fabrication and consulting we are uniquely positioned to manage and solve problems in a timely and cost effective fashion.",
+				"image":""
+			}
+		}
+	},
+
+	"foot":{
+		"google-analytics":"UA-54477259-1",
+		"scripts":[
+            "../assets/js/main.js"
+		]
+	},
+
+	"content":{
+		"slug" : "52LOFFICIEL-UKRAINE",
+		"name" : "L'OFFICIEL UKRAINE",
+		"client" : "",
+		"client_url" : "",
+		"photographer" : "",
+		"photographer_url" : "",
+		"director" : "",
+		"director_url" : "",
+		"stylist" : "",
+		"stylist_url" : "",
+		"talent" : "",
+		"talent_agency" : "",
+		"talent_url" : "",
+		"makeup" : "",
+		"makeup_url" : "",
+		"hair" : "",
+		"hair_url" : "",
+		"cover_photo" : "../assets/images/02Wolf_Magazine/wolfmagazine-thumbnail.jpg",
+		"gallery":[
+			"../assets/images/02Wolf_Magazine/wolfmagazine-01.jpg",
+			"../assets/images/02Wolf_Magazine/wolfmagazine-02.jpg",
+			"../assets/images/02Wolf_Magazine/wolfmagazine-03.jpg",
+			"../assets/images/02Wolf_Magazine/wolfmagazine-04.jpg",
+			"../assets/images/02Wolf_Magazine/wolfmagazine-05.jpg",
+			"../assets/images/02Wolf_Magazine/wolfmagazine-06.jpg",
+			"../assets/images/02Wolf_Magazine/wolfmagazine-07.jpg"
+		]
+	}
+}

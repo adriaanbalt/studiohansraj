@@ -26,25 +26,25 @@
 
 
 .icon-contact {
-    &:before {
-        content: "\e601";
-    }
+    background: url('/assets/images/contact.png');
+    width: 225px;
+    height: 42px;
 }
 .icon-contact-over {
-    &:before {
-        content: "\e600";
-    }
+    background: url('/assets/images/contact-over.png');
+    width: 225px;
+    height: 42px;
 }
 
 .icon-setdesign {
-    &:before {
-        content: "\e605";
-    }
+    background: url('/assets/images/setdesign.png');
+    width: 308px;
+    height: 42px;
 }
 .icon-setdesign-over {
-    &:before {
-        content: "\e604";
-    }
+    background: url('/assets/images/setdesign-over.png');
+    width: 308px;
+    height: 42px;
 }
 
 .icon-sculpture {
@@ -56,6 +56,17 @@
     &:before {
         content: "\e602";
     }
+}
+
+.icon-video {
+    background: url('/assets/images/video.png');
+    width: 172px;
+    height: 42px;
+}
+.icon-video-over {
+    background: url('/assets/images/video-over.png');
+    width: 172px;
+    height: 42px;
 }
 
 .icon-logo {

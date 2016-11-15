@@ -46,36 +46,45 @@
 		"google":"https://goo.gl/maps/LFrTJ",
 		"email":"info@studiohansraj.com",
 		"client-list":[
-			{
-				"title":"Advertising",
-				"list":[
-					"Club Monaco",
-					"Barney's New York",
-					"Clinique",
-					"Olay",
-					"Urban Zen by Donna Karen",
-					"Victoria's Secret",
-					"Tommy Hilfiger Denim",
-					"Kohl's"
-				]
-			},
-
-			{
-				"title":"Editorial",
-				"list":[
-				
-					"iD Magazine",
-					"Vogue Australia",
-					"Interview Magazine",
-					"V Magazine",
-					"Creem Magazine",
-					"Last Magazine",
-					"Marfa Journal",
-					"Out Magazine",
-					"Out of Order Magazine",
-					"Carpark Magazine"
-				]
-			}
+			"assets/images/logos/barneys.jpg",
+			"assets/images/logos/bloomingdales.jpg",
+			"assets/images/logos/bonappetit.jpg",
+			"assets/images/logos/clinique.jpg",
+			"assets/images/logos/clubmonaco.jpg",
+			"assets/images/logos/colehann.jpg",
+			"assets/images/logos/creem.jpg",
+			"assets/images/logos/document.jpg",
+			"assets/images/logos/grey.jpg",
+			"assets/images/logos/harpersbazaar.jpg",
+			"assets/images/logos/heroine.jpg",
+			"assets/images/logos/hm.jpg",
+			"assets/images/logos/i-d.jpg",
+			"assets/images/logos/interview.jpg",
+			"assets/images/logos/keds.jpg",
+			"assets/images/logos/kenzo.jpg",
+			"assets/images/logos/kit-ace.jpg",
+			"assets/images/logos/kohls.jpg",
+			"assets/images/logos/last-mag.jpg",
+			"assets/images/logos/lofficiel.jpg",
+			"assets/images/logos/marcjacobs.jpg",
+			"assets/images/logos/niemanmarcus.jpg",
+			"assets/images/logos/olay.jpg",
+			"assets/images/logos/ooo.jpg",
+			"assets/images/logos/openingceremony.jpg",
+			"assets/images/logos/out.jpg",
+			"assets/images/logos/paper.jpg",
+			"assets/images/logos/refinery29.jpg",
+			"assets/images/logos/revlon.jpg",
+			"assets/images/logos/schon.jpg",
+			"assets/images/logos/self.jpg",
+			"assets/images/logos/thierry.jpg",
+			"assets/images/logos/tmag.jpg",
+			"assets/images/logos/true.jpg",
+			"assets/images/logos/urbanzen.jpg",
+			"assets/images/logos/vmag.jpg",
+			"assets/images/logos/vogue.jpg",
+			"assets/images/logos/w-mag.jpg",
+			"assets/images/logos/wolf.jpg"
 		]
 	}
 }

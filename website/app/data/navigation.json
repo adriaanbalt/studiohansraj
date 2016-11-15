@@ -8,5 +8,10 @@
 		"title": "Contact",
 		"id": "contact",
 		"slug" : "contact"
+	},
+	{
+		"title": "Video",
+		"id": "video",
+		"slug" : "video"
 	}
 ]

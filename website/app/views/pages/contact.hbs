@@ -21,17 +21,14 @@
 			</p>
 		</div>
 
-		<div class="container">
-			{{#each contact.content.client-list}}
-			<h2>{{ title }}</h2>
+		<div class="container logos">
 			<ul>
-				{{#each list}}
+			{{#each contact.content.client-list}}
 				<li>
-					<p>{{this}}</p>
+					<img src="{{this}}"/>
 				</li>
-				{{/each}}
-			</ul>
 			{{/each}}
+			</ul>
 		</div>
 	</div>
 	{{> footer }}
